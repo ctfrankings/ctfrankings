@@ -1,10 +1,12 @@
 const state = {
   data: null,
-  teamToInstitution: new Map(),
+  teamToInstitutions: new Map(),
   institutionMeta: new Map(),
   teamMeta: new Map(),
   years: [],
   countries: [],
+  formats: [],
+  restrictions: [],
   filters: {
     search: "",
     topN: 3,
@@ -12,6 +14,8 @@ const state = {
     yearEnd: null,
     country: "all",
     weightMin: 0,
+    formats: new Set(),
+    restrictions: new Set(),
   },
 };
 
@@ -28,6 +32,8 @@ const elements = {
   yearEnd: document.getElementById("year-end"),
   weightMin: document.getElementById("weight-min"),
   country: document.getElementById("country"),
+  formatOptions: document.getElementById("format-options"),
+  restrictionOptions: document.getElementById("restriction-options"),
   reset: document.getElementById("reset"),
   tableBody: document.getElementById("table-body"),
   jumpTable: document.getElementById("jump-table"),
@@ -37,11 +43,27 @@ const elements = {
 const formatNumber = (value) => value.toLocaleString("en-US");
 const formatWeight = (value) =>
   Number.isInteger(value) ? value.toString() : value.toFixed(1);
+const formatPercent = (value) => {
+  const percent = value * 100;
+  return Number.isInteger(percent) ? percent.toFixed(0) : percent.toFixed(1);
+};
+const DEFAULT_FORMATS = new Set(["Jeopardy"]);
+const DEFAULT_RESTRICTIONS = new Set(["Open"]);
 
 const parseYear = (iso) => {
   if (!iso) return null;
   const date = new Date(iso);
   return Number.isNaN(date.getTime()) ? null : date.getUTCFullYear();
+};
+
+const normalizeFormat = (format) => {
+  if (!format || !format.trim()) return "Jeopardy";
+  return format;
+};
+
+const normalizeRestriction = (restriction) => {
+  if (!restriction || !restriction.trim()) return "Unknown";
+  return restriction;
 };
 
 const normalizeCountry = (code) => {
@@ -50,7 +72,7 @@ const normalizeCountry = (code) => {
 };
 
 const buildIndex = (data) => {
-  const teamToInstitution = new Map();
+  const teamToInstitutions = new Map();
   const institutionMeta = new Map();
   const teamMeta = new Map();
   const countries = new Set();
@@ -61,13 +83,17 @@ const buildIndex = (data) => {
     countries.add(country);
     const teams = info.teams || [];
     teams.forEach((team) => {
-      teamToInstitution.set(team.ctftime_id, name);
-      teamMeta.set(team.ctftime_id, {
-        name: team.name,
-        institution: name,
-      });
+      const existing = teamToInstitutions.get(team.ctftime_id);
+      if (existing) {
+        existing.add(name);
+      } else {
+        teamToInstitutions.set(team.ctftime_id, new Set([name]));
+        teamMeta.set(team.ctftime_id, {
+          name: team.name,
+        });
+        teamCount += 1;
+      }
     });
-    teamCount += teams.length;
     institutionMeta.set(name, {
       name,
       country,
@@ -77,7 +103,7 @@ const buildIndex = (data) => {
   });
 
   return {
-    teamToInstitution,
+    teamToInstitutions,
     institutionMeta,
     teamMeta,
     countries: Array.from(countries).sort(),
@@ -88,10 +114,28 @@ const buildIndex = (data) => {
 const computeYears = (events) => {
   const years = new Set();
   events.forEach((event) => {
-    const year = parseYear(event.start_time);
+    const year = parseYear(event.end_time || event.start_time);
     if (year) years.add(year);
   });
   return Array.from(years).sort((a, b) => a - b);
+};
+
+const computeFormats = (events) => {
+  const formats = new Set();
+  events.forEach((event) => {
+    if (!event || typeof event !== "object") return;
+    formats.add(normalizeFormat(event.format));
+  });
+  return Array.from(formats).sort((a, b) => a.localeCompare(b));
+};
+
+const computeRestrictions = (events) => {
+  const restrictions = new Set();
+  events.forEach((event) => {
+    if (!event || typeof event !== "object") return;
+    restrictions.add(normalizeRestriction(event.restrictions));
+  });
+  return Array.from(restrictions).sort((a, b) => a.localeCompare(b));
 };
 
 const computeWeightRange = (events) => {
@@ -111,8 +155,8 @@ const getEventWeight = (event) => {
   return weight;
 };
 
-const computeScores = ({ events }, teamToInstitution, teamMeta, filters) => {
-  const { topN, yearStart, yearEnd, weightMin } = filters;
+const computeScores = ({ events }, teamToInstitutions, teamMeta, filters) => {
+  const { topN, yearStart, yearEnd, weightMin, formats, restrictions } = filters;
   const scores = new Map();
   const details = new Map();
   let eligibleEvents = 0;
@@ -120,40 +164,61 @@ const computeScores = ({ events }, teamToInstitution, teamMeta, filters) => {
   events.forEach((event) => {
     const year = parseYear(event.start_time);
     if (!year || year < yearStart || year > yearEnd) return;
+    const format = normalizeFormat(event.format);
+    if (formats) {
+      if (formats.size === 0) return;
+      if (!formats.has(format)) return;
+    }
+    const restriction = normalizeRestriction(event.restrictions);
+    if (restrictions) {
+      if (restrictions.size === 0) return;
+      if (!restrictions.has(restriction)) return;
+    }
     const weight = getEventWeight(event);
     if (weight < weightMin) return;
     const academicRankings = (event.rankings || [])
-      .filter((entry) => teamToInstitution.has(entry.ctftime_team_id))
+      .filter((entry) => teamToInstitutions.has(entry.ctftime_team_id))
       .sort((a, b) => a.place - b.place);
 
     if (academicRankings.length === 0) return;
     eligibleEvents += 1;
 
     academicRankings.slice(0, topN).forEach((entry, index) => {
-      const institution = teamToInstitution.get(entry.ctftime_team_id);
-      const current = scores.get(institution) || {
-        points: 0,
-        lastYear: 0,
-        scoredTeams: new Set(),
-      };
-      current.points += 1;
-      current.scoredTeams.add(entry.ctftime_team_id);
-      if (year > current.lastYear) current.lastYear = year;
-      scores.set(institution, current);
+      const institutions = teamToInstitutions.get(entry.ctftime_team_id);
+      if (!institutions || institutions.size === 0) return;
+      const splitPoints = 1 / institutions.size;
 
-      const detailList = details.get(institution) || [];
-      const team = teamMeta.get(entry.ctftime_team_id);
-      detailList.push({
-        eventName: event.name,
-        eventId: event.ctftime_id,
-        weight,
-        year,
-        academicRank: index + 1,
-        place: entry.place,
-        teamId: entry.ctftime_team_id,
-        teamName: team ? team.name : "Unknown team",
+      const shared = institutions.size > 1;
+      institutions.forEach((institution) => {
+        const current = scores.get(institution) || {
+          points: 0,
+          lastYear: 0,
+          scoredTeams: new Set(),
+        };
+        current.points += splitPoints;
+        current.scoredTeams.add(entry.ctftime_team_id);
+        if (year > current.lastYear) current.lastYear = year;
+        scores.set(institution, current);
+
+        const detailList = details.get(institution) || [];
+        const team = teamMeta.get(entry.ctftime_team_id);
+        detailList.push({
+          eventName: event.name,
+          eventId: event.ctftime_id,
+          weight,
+          format,
+          restriction,
+          endTime: event.end_time || event.start_time || null,
+          year,
+          academicRank: index + 1,
+          place: entry.place,
+          teamId: entry.ctftime_team_id,
+          teamName: team ? team.name : "Unknown team",
+          share: splitPoints,
+          shared,
+        });
+        details.set(institution, detailList);
       });
-      details.set(institution, detailList);
     });
   });
 
@@ -184,7 +249,7 @@ const countryFlag = (code) => {
   return chars.join("");
 };
 
-const renderTable = (rows, institutionMeta, details) => {
+const renderTable = (rows, institutionMeta, details, teamToInstitutions) => {
   if (!rows.length) {
     elements.tableBody.innerHTML =
       '<tr><td colspan="3" class="loading">No institutions match these filters.</td></tr>';
@@ -200,13 +265,20 @@ const renderTable = (rows, institutionMeta, details) => {
         : row.name;
       const detailId = `detail-${index}`;
       const teamLinks = (meta.teams || [])
-        .map(
-          (team) =>
-            `<a class="link" href="https://ctftime.org/team/${team.ctftime_id}" target="_blank" rel="noopener">${team.name}</a>`
-        )
+        .map((team) => {
+          const institutions = teamToInstitutions.get(team.ctftime_id);
+          const sharedCount = institutions ? institutions.size : 1;
+          const shareLabel =
+            sharedCount > 1 ? ` (${formatPercent(1 / sharedCount)}%)` : "";
+          return `<a class="link" href="https://ctftime.org/team/${team.ctftime_id}" target="_blank" rel="noopener">${team.name}</a>${shareLabel}`;
+        })
         .join(", ");
       const eventRows = (details.get(row.name) || [])
-        .sort((a, b) => b.year - a.year || a.eventName.localeCompare(b.eventName))
+        .sort((a, b) => {
+          const aTime = a.endTime ? new Date(a.endTime).getTime() : 0;
+          const bTime = b.endTime ? new Date(b.endTime).getTime() : 0;
+          return bTime - aTime || a.eventName.localeCompare(b.eventName);
+        })
         .map((event) => {
           const eventLink = event.eventId
             ? `<a class="link" href="https://ctftime.org/event/${event.eventId}" target="_blank" rel="noopener">${event.eventName}</a>`
@@ -218,6 +290,8 @@ const renderTable = (rows, institutionMeta, details) => {
               <td><a class="link" href="https://ctftime.org/team/${event.teamId}" target="_blank" rel="noopener">${event.teamName}</a></td>
               <td>${event.place}</td>
               <td>${formatWeight(event.weight)}</td>
+              <td>${event.format}</td>
+              <td>${event.restriction}</td>
               <td>${event.year}</td>
             </tr>
           `;
@@ -242,6 +316,8 @@ const renderTable = (rows, institutionMeta, details) => {
                         <th>Team</th>
                         <th>Place</th>
                         <th>Weight</th>
+                        <th>Format</th>
+                        <th>Restrictions</th>
                         <th>Year</th>
                       </tr>
                     </thead>
@@ -300,9 +376,8 @@ const renderStats = (institutionCount, teamCount, eligibleEvents, latestDate) =>
 const renderDataNote = (latestDate) => {
   const note = document.getElementById("data-note");
   if (!note) return;
-  note.textContent = latestDate
-    ? `Data sourced from ctfrankings.json (latest event: ${latestDate}).`
-    : "Data sourced from ctfrankings.json.";
+  const base = `Data sourced from <a class="link" href="https://ctftime.org" target="_blank" rel="noopener">CTFTime</a>`;
+  note.innerHTML = `${base}.`;
 };
 
 const getLatestEventDate = (events) => {
@@ -325,7 +400,7 @@ const updateView = () => {
   if (!state.data) return;
   const { scores, eligibleEvents, details } = computeScores(
     state.data,
-    state.teamToInstitution,
+    state.teamToInstitutions,
     state.teamMeta,
     state.filters
   );
@@ -339,7 +414,7 @@ const updateView = () => {
     .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name));
 
   const filtered = applyFilters(rows, state.filters, state.institutionMeta);
-  renderTable(filtered, state.institutionMeta, details);
+  renderTable(filtered, state.institutionMeta, details, state.teamToInstitutions);
   renderSummary(filtered, eligibleEvents, state.filters);
   renderStats(state.institutionMeta.size, state.teamCount, eligibleEvents, state.latestDate);
 };
@@ -369,6 +444,56 @@ const setCountryOptions = (countries) => {
   elements.country.innerHTML =
     '<option value="all">All countries</option>' +
     countries.map((code) => `<option value="${code}">${code}</option>`).join("");
+};
+
+const setFormatOptions = (formats) => {
+  elements.formatOptions.innerHTML = formats
+    .map(
+      (format) => `
+        <label>
+          <input type="checkbox" value="${format}" ${
+            DEFAULT_FORMATS.has(format) ? "checked" : ""
+          } />
+          ${format}
+        </label>
+      `
+    )
+    .join("");
+  state.filters.formats = new Set(
+    formats.filter((format) => DEFAULT_FORMATS.has(format))
+  );
+};
+
+const setRestrictionOptions = (restrictions) => {
+  elements.restrictionOptions.innerHTML = restrictions
+    .map(
+      (restriction) => `
+        <label>
+          <input type="checkbox" value="${restriction}" ${
+            DEFAULT_RESTRICTIONS.has(restriction) ? "checked" : ""
+          } />
+          ${restriction}
+        </label>
+      `
+    )
+    .join("");
+  state.filters.restrictions = new Set(
+    restrictions.filter((restriction) => DEFAULT_RESTRICTIONS.has(restriction))
+  );
+};
+
+const syncFormatFilters = () => {
+  const checked = Array.from(
+    elements.formatOptions.querySelectorAll('input[type="checkbox"]:checked')
+  ).map((input) => input.value);
+  state.filters.formats = new Set(checked);
+};
+
+const syncRestrictionFilters = () => {
+  const checked = Array.from(
+    elements.restrictionOptions.querySelectorAll('input[type="checkbox"]:checked')
+  ).map((input) => input.value);
+  state.filters.restrictions = new Set(checked);
 };
 
 const wireEvents = () => {
@@ -414,21 +539,47 @@ const wireEvents = () => {
     updateView();
   });
 
+  elements.formatOptions.addEventListener("change", (event) => {
+    if (event.target && event.target.matches('input[type="checkbox"]')) {
+      syncFormatFilters();
+      updateView();
+    }
+  });
+
+  elements.restrictionOptions.addEventListener("change", (event) => {
+    if (event.target && event.target.matches('input[type="checkbox"]')) {
+      syncRestrictionFilters();
+      updateView();
+    }
+  });
+
   elements.reset.addEventListener("click", () => {
     state.filters.search = "";
     state.filters.topN = 3;
-    state.filters.country = "all";
+    state.filters.country = state.countries.includes("US") ? "US" : "all";
     state.filters.yearStart = state.years.includes(2023) ? 2023 : state.years[0];
     state.filters.yearEnd = state.years[state.years.length - 1];
     state.filters.weightMin = state.weightRange.max >= 75 ? 75 : state.weightRange.min;
+    state.filters.formats = new Set(DEFAULT_FORMATS);
+    state.filters.restrictions = new Set(DEFAULT_RESTRICTIONS);
 
     elements.search.value = "";
     elements.topn.value = "3";
-    elements.country.value = "all";
+    elements.country.value = state.filters.country;
     elements.yearStart.value = state.filters.yearStart;
     elements.yearEnd.value = state.filters.yearEnd;
     elements.weightMin.value = state.filters.weightMin;
     elements.statTopN.textContent = state.filters.topN;
+    elements.formatOptions
+      .querySelectorAll('input[type="checkbox"]')
+      .forEach((input) => {
+        input.checked = DEFAULT_FORMATS.has(input.value);
+      });
+    elements.restrictionOptions
+      .querySelectorAll('input[type="checkbox"]')
+      .forEach((input) => {
+        input.checked = DEFAULT_RESTRICTIONS.has(input.value);
+      });
     updateView();
   });
 
@@ -460,10 +611,11 @@ const init = async () => {
     state.data = data;
 
     const index = buildIndex(data);
-    state.teamToInstitution = index.teamToInstitution;
+    state.teamToInstitutions = index.teamToInstitutions;
     state.institutionMeta = index.institutionMeta;
     state.teamMeta = index.teamMeta;
     state.teamCount = index.teamCount;
+    state.countries = index.countries;
 
     state.years = computeYears(data.events);
     setYearOptions(state.years);
@@ -471,13 +623,19 @@ const init = async () => {
       state.filters.yearStart = 2023;
       elements.yearStart.value = "2023";
     }
+    state.formats = computeFormats(data.events);
+    setFormatOptions(state.formats);
+    state.restrictions = computeRestrictions(data.events);
+    setRestrictionOptions(state.restrictions);
     state.weightRange = computeWeightRange(data.events);
     setWeightOptions(state.weightRange);
     if (state.weightRange.max >= 75) {
       state.filters.weightMin = 75;
       elements.weightMin.value = "75";
     }
-    setCountryOptions(index.countries);
+    setCountryOptions(state.countries);
+    state.filters.country = state.countries.includes("US") ? "US" : "all";
+    elements.country.value = state.filters.country;
 
     state.latestDate = getLatestEventDate(data.events);
     renderDataNote(state.latestDate);

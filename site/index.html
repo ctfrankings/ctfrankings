@@ -71,6 +71,14 @@
               <option value="all">All</option>
             </select>
           </label>
+          <div class="checkbox-filter">
+            <span class="filter-label">Formats</span>
+            <div class="checkbox-options" id="format-options"></div>
+          </div>
+          <div class="checkbox-filter">
+            <span class="filter-label">Restrictions</span>
+            <div class="checkbox-options" id="restriction-options"></div>
+          </div>
           <button class="button" id="reset">Reset</button>
         </div>
         <div class="summary" id="summary">Loading results…</div>
@@ -101,14 +109,16 @@
         <p>
           We only consider teams tied to academic institutions. For each ranked CTF, we sort
           academic teams by their overall placing and give 1 point to each of the top N academic
-          teams. Institutions sum points across all their teams.
+          teams. If a team is associated with multiple institutions, that point is split evenly
+          across those institutions.
         </p>
-        <p id="data-note">Data sourced from ctfrankings.json.</p>
       </section>
 
       <footer class="footer">
         <span>Prototype leaderboard for academic CTF performance.</span>
-        <span>Hosted on GitHub Pages.</span>
+        <span>
+          Data sourced from <a class="link" href="https://ctftime.org" target="_blank" rel="noopener">CTFTime</a>.
+        </span>
       </footer>
     </div>
 
