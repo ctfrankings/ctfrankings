@@ -556,7 +556,7 @@ const wireEvents = () => {
   elements.reset.addEventListener("click", () => {
     state.filters.search = "";
     state.filters.topN = 3;
-    state.filters.country = state.countries.includes("US") ? "US" : "all";
+    state.filters.country = "all";
     state.filters.yearStart = state.years.includes(2023) ? 2023 : state.years[0];
     state.filters.yearEnd = state.years[state.years.length - 1];
     state.filters.weightMin = state.weightRange.max >= 75 ? 75 : state.weightRange.min;
@@ -634,7 +634,7 @@ const init = async () => {
       elements.weightMin.value = "75";
     }
     setCountryOptions(state.countries);
-    state.filters.country = state.countries.includes("US") ? "US" : "all";
+    state.filters.country = "all";
     elements.country.value = state.filters.country;
 
     state.latestDate = getLatestEventDate(data.events);
