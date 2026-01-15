@@ -11,26 +11,20 @@
       ]
     },
     "Arizona State University": {
-      "website": null,
+      "website": "https://www.asu.edu/",
       "country": "US",
       "teams": [
+        {
+          "name": "CTF Academy",
+          "ctftime_id": 384247
+        },
         {
           "name": "pwndevils",
           "ctftime_id": 14321
         },
         {
-          "name": "CTF Academy",
-          "ctftime_id": 384247
-        }
-      ]
-    },
-    "BCA + BT": {
-      "website": "https://bergen.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "lazy bums",
-          "ctftime_id": 306490
+          "name": "Shellphish",
+          "ctftime_id": 285
         }
       ]
     },
@@ -45,25 +39,39 @@
       ]
     },
     "Bergen County Academies": {
-      "website": "https://bcts.bergen.org/index.php/2016-05-10-17-30-50/bcts-campuses",
+      "website": "https://www.bergen.org/bergencountyacademies",
       "country": "US",
       "teams": [
+        {
+          "name": "BCACTF",
+          "ctftime_id": 81702
+        },
         {
           "name": "Bing Chilling Academies",
           "ctftime_id": 283028
         },
         {
-          "name": "solid-umbrella",
-          "ctftime_id": 91197
+          "name": "lazy bums",
+          "ctftime_id": 306490
         },
         {
-          "name": "BCACTF",
-          "ctftime_id": 81702
+          "name": "solid-umbrella",
+          "ctftime_id": 91197
+        }
+      ]
+    },
+    "Bergen County Technical High School, Teterboro Campus": {
+      "website": "https://www.bergen.org/bcthstc",
+      "country": "US",
+      "teams": [
+        {
+          "name": "lazy bums",
+          "ctftime_id": 306490
         }
       ]
     },
     "Boston University": {
-      "website": "http://www.bu.edu/",
+      "website": "https://www.bu.edu/",
       "country": "US",
       "teams": [
         {
@@ -73,7 +81,7 @@
       ]
     },
     "Brigham Young University": {
-      "website": "https://cybersecurity.byu.edu/",
+      "website": "https://www.byu.edu/",
       "country": "US",
       "teams": [
         {
@@ -83,7 +91,7 @@
       ]
     },
     "California Polytechnic State University, San Luis Obispo": {
-      "website": "http://calpoly.edu/",
+      "website": "https://www.calpoly.edu/",
       "country": "US",
       "teams": [
         {
@@ -103,7 +111,7 @@
       ]
     },
     "Canyon Crest Academy": {
-      "website": null,
+      "website": "https://cc.sduhsd.net/",
       "country": "US",
       "teams": [
         {
@@ -133,7 +141,7 @@
       ]
     },
     "City College of San Francisco": {
-      "website": "http://www.ccsf.edu/",
+      "website": "https://www.ccsf.edu/",
       "country": "US",
       "teams": [
         {
@@ -143,7 +151,7 @@
       ]
     },
     "Colorado State University": {
-      "website": "https://compsci.colostate.edu/",
+      "website": "https://www.colostate.edu/",
       "country": "US",
       "teams": [
         {
@@ -157,7 +165,7 @@
       ]
     },
     "Cornell University": {
-      "website": "http://www.cornell.edu/",
+      "website": "https://www.cornell.edu/",
       "country": "US",
       "teams": [
         {
@@ -166,8 +174,8 @@
         }
       ]
     },
-    "DSU": {
-      "website": "https://dsu.edu/",
+    "Dakota State University": {
+      "website": "https://www.dsu.edu/",
       "country": "US",
       "teams": [
         {
@@ -177,7 +185,7 @@
       ]
     },
     "Dartmouth College": {
-      "website": "https://web.cs.dartmouth.edu/",
+      "website": "https://home.dartmouth.edu/",
       "country": "US",
       "teams": [
         {
@@ -186,18 +194,8 @@
         }
       ]
     },
-    "DePaul University": {
-      "website": "http://secdaemons.org/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "Security Daemons",
-          "ctftime_id": 633
-        }
-      ]
-    },
     "Del Norte High School": {
-      "website": null,
+      "website": "https://delnorte.powayusd.com/",
       "country": "US",
       "teams": [
         {
@@ -206,8 +204,8 @@
         }
       ]
     },
-    "Delaware Tech": {
-      "website": "http://dtcc.edu/",
+    "Delaware Technical Community College": {
+      "website": "https://www.dtcc.edu/",
       "country": "US",
       "teams": [
         {
@@ -216,8 +214,18 @@
         }
       ]
     },
+    "DePaul University": {
+      "website": "https://www.depaul.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "Security Daemons",
+          "ctftime_id": 633
+        }
+      ]
+    },
     "East Brunswick High School": {
-      "website": null,
+      "website": "https://hs.ebnet.org/",
       "country": "US",
       "teams": [
         {
@@ -237,7 +245,7 @@
       ]
     },
     "Florida Polytechnic University": {
-      "website": null,
+      "website": "https://floridapoly.edu/",
       "country": "US",
       "teams": [
         {
@@ -257,7 +265,7 @@
       ]
     },
     "Full Sail University": {
-      "website": null,
+      "website": "https://www.fullsail.edu/",
       "country": "US",
       "teams": [
         {
@@ -267,45 +275,39 @@
       ]
     },
     "George Mason University": {
-      "website": "http://gmu.edu/",
+      "website": "https://www.gmu.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "Mason Competitive Cyber",
-          "ctftime_id": 24704
-        },
-        {
           "name": "Competitive Cyber at Mason",
           "ctftime_id": 176906
+        },
+        {
+          "name": "Mason Competitive Cyber",
+          "ctftime_id": 24704
         }
       ]
     },
     "Georgia Institute of Technology": {
-      "website": "http://www.gatech.edu/",
+      "website": "https://www.gatech.edu/",
       "country": "US",
       "teams": [
         {
           "name": "Mad H@tters",
           "ctftime_id": 38564
-        }
-      ]
-    },
-    "Georgia Tech": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "r00timentary",
-          "ctftime_id": 32783
         },
         {
           "name": "MadHatters",
           "ctftime_id": 2506
+        },
+        {
+          "name": "r00timentary",
+          "ctftime_id": 32783
         }
       ]
     },
     "Great Neck South High School": {
-      "website": null,
+      "website": "https://shs.greatneck.k12.ny.us/",
       "country": "US",
       "teams": [
         {
@@ -314,8 +316,8 @@
         }
       ]
     },
-    "HTHS": {
-      "website": "http://hths.mcvsd.org/",
+    "High Technology High School": {
+      "website": "https://www.hths.mcvsd.org/o/hths",
       "country": "US",
       "teams": [
         {
@@ -328,7 +330,7 @@
         }
       ]
     },
-    "Highland Park Senior High, Nova Classical Academy": {
+    "Highland Park Senior High": {
       "website": "http://highlandsr.spps.org/",
       "country": "US",
       "teams": [
@@ -339,9 +341,13 @@
       ]
     },
     "Iowa State University": {
-      "website": "http://iasg.iac.iastate.edu/",
+      "website": "https://www.iastate.edu/",
       "country": "US",
       "teams": [
+        {
+          "name": "IASG",
+          "ctftime_id": 34958
+        },
         {
           "name": "Psuedo Sudo",
           "ctftime_id": 145631
@@ -349,10 +355,6 @@
         {
           "name": "Runlevel S",
           "ctftime_id": 22540
-        },
-        {
-          "name": "IASG",
-          "ctftime_id": 34958
         }
       ]
     },
@@ -367,7 +369,7 @@
       ]
     },
     "Kansas State University": {
-      "website": "http://cis.ksu.edu/",
+      "website": "https://www.k-state.edu/",
       "country": "US",
       "teams": [
         {
@@ -376,23 +378,23 @@
         }
       ]
     },
-    "LASA HS": {
-      "website": "https://www.lasahighschool.org/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "Callipygian Consortium of Cryptography",
-          "ctftime_id": 114056
-        }
-      ]
-    },
-    "Lexington": {
-      "website": null,
+    "Lexington High School": {
+      "website": "https://www.lexingtonma.org/lexingtonhighschool",
       "country": "US",
       "teams": [
         {
           "name": "LIT CTF",
           "ctftime_id": 157660
+        }
+      ]
+    },
+    "Liberal Arts and Science Academy": {
+      "website": "https://lasa.austinschools.org",
+      "country": "US",
+      "teams": [
+        {
+          "name": "Callipygian Consortium of Cryptography",
+          "ctftime_id": 114056
         }
       ]
     },
@@ -406,18 +408,8 @@
         }
       ]
     },
-    "Lockshaw Academy": {
-      "website": "http://cs595g.lockshaw.io/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "by7ch",
-          "ctftime_id": 112541
-        }
-      ]
-    },
     "Massachusetts Institute of Technology": {
-      "website": "http://mit.edu/",
+      "website": "https://www.mit.edu/",
       "country": "US",
       "teams": [
         {
@@ -437,7 +429,7 @@
       ]
     },
     "Mississippi State University": {
-      "website": null,
+      "website": "https://www.msstate.edu/",
       "country": "US",
       "teams": [
         {
@@ -446,8 +438,8 @@
         }
       ]
     },
-    "Missouri S&T": {
-      "website": "http://mst.edu/",
+    "Missouri University of Science and Technology": {
+      "website": "https://www.mst.edu/",
       "country": "US",
       "teams": [
         {
@@ -456,18 +448,8 @@
         }
       ]
     },
-    "Mixed": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "phsst",
-          "ctftime_id": 31730
-        }
-      ]
-    },
     "Monta Vista High School": {
-      "website": null,
+      "website": "https://mvhs.fuhsd.org/",
       "country": "US",
       "teams": [
         {
@@ -476,18 +458,8 @@
         }
       ]
     },
-    "Multiple": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "Sice Squad",
-          "ctftime_id": 55508
-        }
-      ]
-    },
     "Munster High School": {
-      "website": null,
+      "website": "https://mhs.munster.us/",
       "country": "US",
       "teams": [
         {
@@ -496,24 +468,10 @@
         }
       ]
     },
-    "NBA": {
-      "website": "https://bisoncentral.com/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "BisonSquad",
-          "ctftime_id": 60210
-        }
-      ]
-    },
     "New Jersey Institute of Technology": {
-      "website": "https://computing.njit.edu/",
+      "website": "https://www.njit.edu/",
       "country": "US",
       "teams": [
-        {
-          "name": "NICC",
-          "ctftime_id": 214936
-        },
         {
           "name": "G1tc_Gu4rdians",
           "ctftime_id": 202828
@@ -521,11 +479,15 @@
         {
           "name": "Highlander Hackers",
           "ctftime_id": 173925
+        },
+        {
+          "name": "NICC",
+          "ctftime_id": 214936
         }
       ]
     },
     "New York University": {
-      "website": "http://nyu.edu/",
+      "website": "https://www.nyu.edu/",
       "country": "US",
       "teams": [
         {
@@ -535,7 +497,7 @@
       ]
     },
     "Newark Academy": {
-      "website": null,
+      "website": "https://www.newarka.edu/",
       "country": "US",
       "teams": [
         {
@@ -544,18 +506,8 @@
         }
       ]
     },
-    "Newport High School": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "sl1th3r",
-          "ctftime_id": 202847
-        }
-      ]
-    },
     "North Carolina State University": {
-      "website": "https://hackpack.club/",
+      "website": "https://www.ncsu.edu/",
       "country": "US",
       "teams": [
         {
@@ -564,8 +516,18 @@
         }
       ]
     },
+    "Nova Classical Academy": {
+      "website": "https://www.novaclassical.org/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "AuPhishYellow",
+          "ctftime_id": 12067
+        }
+      ]
+    },
     "Oregon State University": {
-      "website": "http://eecs.oregonstate.edu/",
+      "website": "https://oregonstate.edu/",
       "country": "US",
       "teams": [
         {
@@ -579,12 +541,12 @@
       "country": "US",
       "teams": [
         {
-          "name": "Shallow-Fried Soy Winter Vegetables",
-          "ctftime_id": 73624
-        },
-        {
           "name": "PHS Absol",
           "ctftime_id": 13967
+        },
+        {
+          "name": "Shallow-Fried Soy Winter Vegetables",
+          "ctftime_id": 73624
         }
       ]
     },
@@ -599,7 +561,7 @@
       ]
     },
     "Purdue University": {
-      "website": "http://www.cs.purdue.edu/",
+      "website": "https://www.purdue.edu/",
       "country": "US",
       "teams": [
         {
@@ -609,7 +571,7 @@
       ]
     },
     "Rensselaer Polytechnic Institute": {
-      "website": "http://www.rpi.edu/",
+      "website": "https://www.rpi.edu/",
       "country": "US",
       "teams": [
         {
@@ -619,7 +581,7 @@
       ]
     },
     "Rice University": {
-      "website": "https://rice.edu/",
+      "website": "https://www.rice.edu/",
       "country": "US",
       "teams": [
         {
@@ -629,24 +591,24 @@
       ]
     },
     "Rochester Institute of Technology": {
-      "website": "https://rit.edu/",
+      "website": "https://www.rit.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "TeamContagion",
-          "ctftime_id": 152691
-        },
-        {
           "name": "CSH",
           "ctftime_id": 29987
+        },
+        {
+          "name": "RC3",
+          "ctftime_id": 15207
         },
         {
           "name": "Sector 70",
           "ctftime_id": 32157
         },
         {
-          "name": "RC3",
-          "ctftime_id": 15207
+          "name": "TeamContagion",
+          "ctftime_id": 152691
         }
       ]
     },
@@ -661,21 +623,21 @@
       ]
     },
     "Rutgers University": {
-      "website": null,
+      "website": "https://www.rutgers.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "RUSEC",
-          "ctftime_id": 14889
-        },
-        {
           "name": "rupwnd",
           "ctftime_id": 10179
+        },
+        {
+          "name": "RUSEC",
+          "ctftime_id": 14889
         }
       ]
     },
     "Santa Clara University": {
-      "website": "http://broncosec.com/",
+      "website": "https://www.scu.edu/",
       "country": "US",
       "teams": [
         {
@@ -685,7 +647,7 @@
       ]
     },
     "School of Science and Technology": {
-      "website": null,
+      "website": "https://hs2.beaverton.k12.or.us/",
       "country": "US",
       "teams": [
         {
@@ -704,50 +666,30 @@
         }
       ]
     },
-    "TJHSST": {
-      "website": "https://tjhsst.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "TJCTF",
-          "ctftime_id": 8431
-        },
-        {
-          "name": "Raelly",
-          "ctftime_id": 10135
-        },
-        {
-          "name": "VAPatriot ScubaSquad",
-          "ctftime_id": 73620
-        }
-      ]
-    },
-    "Texas A&M": {
-      "website": "https://cybersecurity.tamu.edu/",
+    "Texas A&M University": {
+      "website": "https://www.tamu.edu/",
       "country": "US",
       "teams": [
         {
           "name": "GigEmBytes",
           "ctftime_id": 45787
-        }
-      ]
-    },
-    "Texas A&M University": {
-      "website": "https://cybersecurity.tamu.edu/",
-      "country": "US",
-      "teams": [
+        },
+        {
+          "name": "ret2rev",
+          "ctftime_id": 154567
+        },
         {
           "name": "TAMUctf",
           "ctftime_id": 37721
         },
         {
-          "name": "ret2rev",
-          "ctftime_id": 154567
+          "name": "UTC",
+          "ctftime_id": 75919
         }
       ]
     },
-    "Texas State": {
-      "website": "http://cs.txstate.edu/",
+    "Texas State University": {
+      "website": "https://www.txst.edu/",
       "country": "US",
       "teams": [
         {
@@ -757,7 +699,7 @@
       ]
     },
     "The Evergreen State College": {
-      "website": "http://evergreen.edu/",
+      "website": "https://www.evergreen.edu/",
       "country": "US",
       "teams": [
         {
@@ -776,6 +718,16 @@
         }
       ]
     },
+    "The University of Alabama": {
+      "website": "https://www.ua.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "Crimson Defense",
+          "ctftime_id": 65283
+        }
+      ]
+    },
     "The University of Alabama in Huntsville": {
       "website": "https://www.uah.edu/",
       "country": "US",
@@ -786,8 +738,8 @@
         }
       ]
     },
-    "The University of Texas at Arlington+Austin+Dallas  + Texas A&M": {
-      "website": null,
+    "The University of Texas at Arlington": {
+      "website": "https://www.uta.edu/",
       "country": "US",
       "teams": [
         {
@@ -796,22 +748,76 @@
         }
       ]
     },
-    "Thomas Jefferson High School for Science and Technology": {
-      "website": "http://www.tjhsst.edu/",
+    "The University of Texas at Austin": {
+      "website": "https://www.utexas.edu/",
       "country": "US",
       "teams": [
+        {
+          "name": "hhh_",
+          "ctftime_id": 69010
+        },
+        {
+          "name": "UTC",
+          "ctftime_id": 75919
+        }
+      ]
+    },
+    "The University of Texas at Dallas": {
+      "website": "https://www.utdallas.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "CSG",
+          "ctftime_id": 333
+        },
+        {
+          "name": "UTC",
+          "ctftime_id": 75919
+        },
+        {
+          "name": "UTD TexSAW",
+          "ctftime_id": 220408
+        }
+      ]
+    },
+    "The University of Texas at San Antonio": {
+      "website": "https://www.utsa.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "UTSA - CodeRunners",
+          "ctftime_id": 166997
+        }
+      ]
+    },
+    "Thomas Jefferson High School for Science and Technology": {
+      "website": "https://tjhsst.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "Cutie Mark Crusaders",
+          "ctftime_id": 13493
+        },
+        {
+          "name": "Raelly",
+          "ctftime_id": 10135
+        },
         {
           "name": "tjcsc",
           "ctftime_id": 53812
         },
         {
-          "name": "Cutie Mark Crusaders",
-          "ctftime_id": 13493
+          "name": "TJCTF",
+          "ctftime_id": 8431
+        },
+        {
+          "name": "VAPatriot ScubaSquad",
+          "ctftime_id": 73620
         }
       ]
     },
     "Towson University": {
-      "website": null,
+      "website": "https://www.towson.edu/",
       "country": "US",
       "teams": [
         {
@@ -830,68 +836,8 @@
         }
       ]
     },
-    "UC Berkeley": {
-      "website": "https://cs.berkeley.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "0ski",
-          "ctftime_id": 182411
-        }
-      ]
-    },
-    "UC Santa Barbara and Arizona State University": {
-      "website": "http://shellphish.net/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "Shellphish",
-          "ctftime_id": 285
-        }
-      ]
-    },
-    "UCF + UF": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "Pwninsula",
-          "ctftime_id": 78374
-        }
-      ]
-    },
-    "UCLA": {
-      "website": "http://hanto.bol.ucla.edu/xss.php",
-      "country": "US",
-      "teams": [
-        {
-          "name": "hanto",
-          "ctftime_id": 20541
-        }
-      ]
-    },
-    "UF's Kernel Sanders": {
-      "website": "https://ufsit.club/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "Kernel Sanders",
-          "ctftime_id": 397
-        }
-      ]
-    },
-    "UMass Amherst": {
-      "website": null,
-      "country": "US",
-      "teams": [
-        {
-          "name": "SavedByTheShell",
-          "ctftime_id": 78233
-        }
-      ]
-    },
-    "US Air Force Academy": {
-      "website": "http://www.usafa.edu/",
+    "United States Air Force Academy": {
+      "website": "https://www.usafa.edu/",
       "country": "US",
       "teams": [
         {
@@ -900,18 +846,8 @@
         }
       ]
     },
-    "USNA": {
-      "website": "http://www.usna.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "BigGasWarship",
-          "ctftime_id": 10285
-        }
-      ]
-    },
     "United States Coast Guard Academy": {
-      "website": "http://uscga.edu/",
+      "website": "https://www.uscga.edu/",
       "country": "US",
       "teams": [
         {
@@ -925,37 +861,31 @@
       ]
     },
     "United States Military Academy": {
-      "website": null,
+      "website": "https://www.westpoint.edu/",
       "country": "US",
       "teams": [
+        {
+          "name": "Bits For Everyone",
+          "ctftime_id": 2511
+        },
         {
           "name": "BytesForEveryone",
           "ctftime_id": 37987
         }
       ]
     },
-    "United States Military Academy (West Point)": {
-      "website": "https://westpoint.edu/",
+    "United States Naval Academy": {
+      "website": "https://www.usna.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "Bits For Everyone",
-          "ctftime_id": 2511
-        }
-      ]
-    },
-    "University of Alabama": {
-      "website": "http://ua.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "Crimson Defense",
-          "ctftime_id": 65283
+          "name": "BigGasWarship",
+          "ctftime_id": 10285
         }
       ]
     },
     "University of Alaska Fairbanks": {
-      "website": null,
+      "website": "https://www.uaf.edu/",
       "country": "US",
       "teams": [
         {
@@ -964,13 +894,13 @@
         }
       ]
     },
-    "University of California San Diego": {
-      "website": "https://ucsd.edu/",
+    "University of California, Berkeley": {
+      "website": "https://www.berkeley.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "3 Prongs And a Computer",
-          "ctftime_id": 112558
+          "name": "0ski",
+          "ctftime_id": 182411
         }
       ]
     },
@@ -985,7 +915,7 @@
       ]
     },
     "University of California, Irvine": {
-      "website": null,
+      "website": "https://uci.edu/",
       "country": "US",
       "teams": [
         {
@@ -999,13 +929,17 @@
       "country": "US",
       "teams": [
         {
+          "name": "hanto",
+          "ctftime_id": 20541
+        },
+        {
           "name": "PBR | UCLA",
           "ctftime_id": 186494
         }
       ]
     },
     "University of California, Riverside": {
-      "website": "http://www.ucr.edu/",
+      "website": "https://www.ucr.edu/",
       "country": "US",
       "teams": [
         {
@@ -1014,8 +948,32 @@
         }
       ]
     },
-    "University of California-Santa Cruz": {
-      "website": "http://www.ucsc.edu/",
+    "University of California, San Diego": {
+      "website": "https://www.ucsd.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "3 Prongs And a Computer",
+          "ctftime_id": 112558
+        }
+      ]
+    },
+    "University of California, Santa Barbara": {
+      "website": "https://www.ucsb.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "by7ch",
+          "ctftime_id": 112541
+        },
+        {
+          "name": "Shellphish",
+          "ctftime_id": 285
+        }
+      ]
+    },
+    "University of California, Santa Cruz": {
+      "website": "https://www.ucsc.edu/",
       "country": "US",
       "teams": [
         {
@@ -1025,17 +983,21 @@
       ]
     },
     "University of Central Florida": {
-      "website": "http://ucf.edu/",
+      "website": "https://www.ucf.edu/",
       "country": "US",
       "teams": [
         {
           "name": "Knightsec",
           "ctftime_id": 2500
+        },
+        {
+          "name": "Pwninsula",
+          "ctftime_id": 78374
         }
       ]
     },
     "University of Cincinnati": {
-      "website": "http://www.uc.edu/",
+      "website": "https://www.uc.edu/",
       "country": "US",
       "teams": [
         {
@@ -1045,7 +1007,7 @@
       ]
     },
     "University of Connecticut": {
-      "website": "http://www.uconn.edu/",
+      "website": "https://uconn.edu/",
       "country": "US",
       "teams": [
         {
@@ -1055,7 +1017,7 @@
       ]
     },
     "University of Delaware": {
-      "website": "http://udel.edu/",
+      "website": "https://www.udel.edu/",
       "country": "US",
       "teams": [
         {
@@ -1064,8 +1026,22 @@
         }
       ]
     },
+    "University of Florida": {
+      "website": "https://www.ufl.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "Kernel Sanders",
+          "ctftime_id": 397
+        },
+        {
+          "name": "Pwninsula",
+          "ctftime_id": 78374
+        }
+      ]
+    },
     "University of Illinois Urbana-Champaign": {
-      "website": "https://illinois.edu/",
+      "website": "https://www.illinois.edu/",
       "country": "US",
       "teams": [
         {
@@ -1074,22 +1050,8 @@
         }
       ]
     },
-    "University of Maryland": {
-      "website": "https://www.umd.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "UMDCSEC",
-          "ctftime_id": 87711
-        },
-        {
-          "name": "UMD-CSEC",
-          "ctftime_id": 22066
-        }
-      ]
-    },
     "University of Maryland, Baltimore County": {
-      "website": "https://umbccd.umbc.edu/",
+      "website": "https://www.umbc.edu/",
       "country": "US",
       "teams": [
         {
@@ -1099,17 +1061,35 @@
       ]
     },
     "University of Maryland, College Park": {
-      "website": null,
+      "website": "https://www.umd.edu/",
       "country": "US",
       "teams": [
         {
           "name": "Age Of Null",
           "ctftime_id": 28326
+        },
+        {
+          "name": "UMD-CSEC",
+          "ctftime_id": 22066
+        },
+        {
+          "name": "UMDCSEC",
+          "ctftime_id": 87711
+        }
+      ]
+    },
+    "University of Massachusetts Amherst": {
+      "website": "https://www.umass.edu/",
+      "country": "US",
+      "teams": [
+        {
+          "name": "SavedByTheShell",
+          "ctftime_id": 78233
         }
       ]
     },
     "University of Memphis": {
-      "website": "http://www.memphis.edu/",
+      "website": "https://www.memphis.edu/",
       "country": "US",
       "teams": [
         {
@@ -1129,7 +1109,7 @@
       ]
     },
     "University of Minnesota": {
-      "website": "https://umn.edu/",
+      "website": "https://www.umn.edu/",
       "country": "US",
       "teams": [
         {
@@ -1138,8 +1118,8 @@
         }
       ]
     },
-    "University of Nebraska Omaha": {
-      "website": null,
+    "University of Nebraska at Omaha": {
+      "website": "https://www.unomaha.edu/",
       "country": "US",
       "teams": [
         {
@@ -1149,7 +1129,7 @@
       ]
     },
     "University of New Hampshire": {
-      "website": "http://unh.edu/",
+      "website": "https://www.unh.edu/",
       "country": "US",
       "teams": [
         {
@@ -1159,21 +1139,21 @@
       ]
     },
     "University of New Haven": {
-      "website": "https://newhaven.edu/",
+      "website": "https://www.newhaven.edu/",
       "country": "US",
       "teams": [
         {
-          "name": "hack@unhcfreg",
-          "ctftime_id": 34936
-        },
-        {
           "name": "HACK@CIT",
           "ctftime_id": 287896
+        },
+        {
+          "name": "hack@unhcfreg",
+          "ctftime_id": 34936
         }
       ]
     },
     "University of New Mexico": {
-      "website": "http://www.unm.edu/",
+      "website": "https://www.unm.edu/",
       "country": "US",
       "teams": [
         {
@@ -1183,7 +1163,7 @@
       ]
     },
     "University of New Orleans": {
-      "website": "http://gnocia.cs.uno.edu/",
+      "website": "https://www.uno.edu/",
       "country": "US",
       "teams": [
         {
@@ -1193,7 +1173,7 @@
       ]
     },
     "University of North Carolina at Chapel Hill": {
-      "website": "http://www.unc.edu/",
+      "website": "https://www.unc.edu/",
       "country": "US",
       "teams": [
         {
@@ -1203,7 +1183,7 @@
       ]
     },
     "University of North Carolina at Charlotte": {
-      "website": "https://www.49sd.com/",
+      "website": "https://www.charlotte.edu/",
       "country": "US",
       "teams": [
         {
@@ -1213,7 +1193,7 @@
       ]
     },
     "University of Oregon": {
-      "website": "http://cs.uoregon.edu/",
+      "website": "https://www.uoregon.edu/",
       "country": "US",
       "teams": [
         {
@@ -1223,7 +1203,7 @@
       ]
     },
     "University of South Florida": {
-      "website": "http://www.wcsc.usf.edu/",
+      "website": "https://www.usf.edu/",
       "country": "US",
       "teams": [
         {
@@ -1232,42 +1212,8 @@
         }
       ]
     },
-    "University of Texas": {
-      "website": "http://isss.io/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "hhh_",
-          "ctftime_id": 69010
-        }
-      ]
-    },
-    "University of Texas - San Antonio": {
-      "website": "https://www.utsa.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "UTSA - CodeRunners",
-          "ctftime_id": 166997
-        }
-      ]
-    },
-    "University of Texas at Dallas": {
-      "website": "http://csg.utdallas.edu/",
-      "country": "US",
-      "teams": [
-        {
-          "name": "CSG",
-          "ctftime_id": 333
-        },
-        {
-          "name": "UTD TexSAW",
-          "ctftime_id": 220408
-        }
-      ]
-    },
     "University of Tulsa": {
-      "website": "http://utulsa.edu/",
+      "website": "https://utulsa.edu/",
       "country": "US",
       "teams": [
         {
@@ -1277,7 +1223,7 @@
       ]
     },
     "University of Utah": {
-      "website": null,
+      "website": "https://www.utah.edu/",
       "country": "US",
       "teams": [
         {
@@ -1297,7 +1243,7 @@
       ]
     },
     "University of Washington": {
-      "website": null,
+      "website": "https://www.washington.edu/",
       "country": "US",
       "teams": [
         {
@@ -1307,7 +1253,7 @@
       ]
     },
     "University of Wyoming": {
-      "website": "https://www.uwyo.edu/cedar/student-organizations/index.html",
+      "website": "https://www.uwyo.edu/",
       "country": "US",
       "teams": [
         {
@@ -1317,7 +1263,7 @@
       ]
     },
     "Vanderbilt University": {
-      "website": "https://vanderbilt.edu/",
+      "website": "https://www.vanderbilt.edu/",
       "country": "US",
       "teams": [
         {
@@ -1337,7 +1283,7 @@
       ]
     },
     "West Windsor-Plainsboro High School North": {
-      "website": null,
+      "website": "https://www.west-windsor-plainsboro.k12.nj.us/schools/high_school_north",
       "country": "US",
       "teams": [
         {
@@ -1347,7 +1293,7 @@
       ]
     },
     "Western Michigan University": {
-      "website": "https://wmich.edu/cs",
+      "website": "https://wmich.edu/",
       "country": "US",
       "teams": [
         {
@@ -1357,7 +1303,7 @@
       ]
     },
     "Worcester Polytechnic Institute": {
-      "website": "http://wpi.edu/",
+      "website": "https://www.wpi.edu/",
       "country": "US",
       "teams": [
         {
@@ -9922,10 +9868,6 @@
           "place": 6
         },
         {
-          "ctftime_team_id": 31730,
-          "place": 9
-        },
-        {
           "ctftime_team_id": 2511,
           "place": 19
         },
@@ -9999,10 +9941,6 @@
         {
           "ctftime_team_id": 27429,
           "place": 53
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 80
         },
         {
           "ctftime_team_id": 25932,
@@ -10089,10 +10027,6 @@
         {
           "ctftime_team_id": 20541,
           "place": 430
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 835
         },
         {
           "ctftime_team_id": 24704,
@@ -10198,10 +10132,6 @@
         {
           "ctftime_team_id": 3135,
           "place": 178
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 490
         },
         {
           "ctftime_team_id": 13572,
@@ -10974,10 +10904,6 @@
       "restrictions": "Academic",
       "rankings": [
         {
-          "ctftime_team_id": 31730,
-          "place": 3
-        },
-        {
           "ctftime_team_id": 20541,
           "place": 11
         },
@@ -11187,10 +11113,6 @@
           "place": 162
         },
         {
-          "ctftime_team_id": 31730,
-          "place": 277
-        },
-        {
           "ctftime_team_id": 24704,
           "place": 300
         },
@@ -11392,10 +11314,6 @@
           "place": 203
         },
         {
-          "ctftime_team_id": 31730,
-          "place": 214
-        },
-        {
           "ctftime_team_id": 12631,
           "place": 353
         },
@@ -11433,10 +11351,6 @@
         {
           "ctftime_team_id": 20541,
           "place": 6
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 11
         },
         {
           "ctftime_team_id": 397,
@@ -11494,10 +11408,6 @@
           "place": 25
         },
         {
-          "ctftime_team_id": 31730,
-          "place": 35
-        },
-        {
           "ctftime_team_id": 20541,
           "place": 65
         },
@@ -11546,10 +11456,6 @@
         {
           "ctftime_team_id": 20541,
           "place": 54
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 82
         },
         {
           "ctftime_team_id": 315,
@@ -11704,10 +11610,6 @@
           "place": 129
         },
         {
-          "ctftime_team_id": 31730,
-          "place": 215
-        },
-        {
           "ctftime_team_id": 15342,
           "place": 217
         },
@@ -11843,10 +11745,6 @@
         {
           "ctftime_team_id": 37987,
           "place": 251
-        },
-        {
-          "ctftime_team_id": 31730,
-          "place": 354
         },
         {
           "ctftime_team_id": 38869,
@@ -14391,10 +14289,6 @@
       "restrictions": "Academic",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 4
-        },
-        {
           "ctftime_team_id": 20541,
           "place": 21
         },
@@ -15666,10 +15560,6 @@
           "place": 83
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 142
-        },
-        {
           "ctftime_team_id": 2511,
           "place": 148
         },
@@ -15973,10 +15863,6 @@
           "place": 77
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 86
-        },
-        {
           "ctftime_team_id": 25905,
           "place": 250
         },
@@ -16012,10 +15898,6 @@
           "place": 33
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 64
-        },
-        {
           "ctftime_team_id": 25905,
           "place": 80
         },
@@ -16046,10 +15928,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 26
-        },
         {
           "ctftime_team_id": 397,
           "place": 146
@@ -16088,10 +15966,6 @@
         {
           "ctftime_team_id": 285,
           "place": 8
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 53
         }
       ]
     },
@@ -16117,10 +15991,6 @@
           "place": 403
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 414
-        },
-        {
           "ctftime_team_id": 14321,
           "place": 415
         }
@@ -16138,10 +16008,6 @@
         {
           "ctftime_team_id": 20541,
           "place": 32
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 38
         },
         {
           "ctftime_team_id": 25905,
@@ -16221,14 +16087,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 29
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 35
-        },
-        {
           "ctftime_team_id": 446,
           "place": 40
         },
@@ -16268,27 +16126,8 @@
           "place": 38
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 48
-        },
-        {
           "ctftime_team_id": 446,
           "place": 59
-        }
-      ]
-    },
-    {
-      "name": "ICON CTF Quals",
-      "ctftime_id": 675,
-      "ctftime_weight": 25.0,
-      "start_time": "2018-08-28T08:31:19+00:00",
-      "end_time": "2018-09-07T22:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 55508,
-          "place": 29
         }
       ]
     },
@@ -16357,10 +16196,6 @@
           "place": 130
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 133
-        },
-        {
           "ctftime_team_id": 397,
           "place": 160
         },
@@ -16385,10 +16220,6 @@
           "place": 412
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 413
-        },
-        {
           "ctftime_team_id": 15342,
           "place": 495
         }
@@ -16406,10 +16237,6 @@
         {
           "ctftime_team_id": 152691,
           "place": 59
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 71
         },
         {
           "ctftime_team_id": 446,
@@ -16483,14 +16310,6 @@
           "place": 7
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 20
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 34
-        },
-        {
           "ctftime_team_id": 2511,
           "place": 84
         },
@@ -16525,10 +16344,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 22
-        },
         {
           "ctftime_team_id": 2524,
           "place": 31
@@ -16569,20 +16384,12 @@
           "place": 229
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 362
-        },
-        {
           "ctftime_team_id": 3602,
           "place": 397
         },
         {
           "ctftime_team_id": 25932,
           "place": 401
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 416
         }
       ]
     },
@@ -16602,10 +16409,6 @@
         {
           "ctftime_team_id": 285,
           "place": 3
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 26
         },
         {
           "ctftime_team_id": 38564,
@@ -16666,10 +16469,6 @@
         {
           "ctftime_team_id": 2524,
           "place": 153
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 154
         },
         {
           "ctftime_team_id": 64660,
@@ -16741,10 +16540,6 @@
         {
           "ctftime_team_id": 22064,
           "place": 16
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 50
         }
       ]
     },
@@ -16768,10 +16563,6 @@
         {
           "ctftime_team_id": 11464,
           "place": 39
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 49
         },
         {
           "ctftime_team_id": 572,
@@ -16821,20 +16612,12 @@
       "restrictions": "High-school",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 11
-        },
-        {
           "ctftime_team_id": 20541,
           "place": 17
         },
         {
           "ctftime_team_id": 53812,
           "place": 18
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 88
         },
         {
           "ctftime_team_id": 30563,
@@ -16934,10 +16717,6 @@
         {
           "ctftime_team_id": 397,
           "place": 201
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 219
         }
       ]
     },
@@ -16961,10 +16740,6 @@
         {
           "ctftime_team_id": 397,
           "place": 35
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 40
         }
       ]
     },
@@ -16984,10 +16759,6 @@
         {
           "ctftime_team_id": 114056,
           "place": 28
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 37
         },
         {
           "ctftime_team_id": 14321,
@@ -17070,10 +16841,6 @@
         {
           "ctftime_team_id": 285,
           "place": 96
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 163
         },
         {
           "ctftime_team_id": 2511,
@@ -17161,14 +16928,6 @@
         {
           "ctftime_team_id": 2500,
           "place": 264
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 266
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 296
         },
         {
           "ctftime_team_id": 65296,
@@ -17360,10 +17119,6 @@
           "place": 4
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 18
-        },
-        {
           "ctftime_team_id": 38564,
           "place": 23
         },
@@ -17385,10 +17140,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 15
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 41
         },
         {
           "ctftime_team_id": 15342,
@@ -17452,10 +17203,6 @@
         {
           "ctftime_team_id": 573,
           "place": 165
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 278
         }
       ]
     },
@@ -17564,10 +17311,6 @@
           "place": 791
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 832
-        },
-        {
           "ctftime_team_id": 24526,
           "place": 851
         }
@@ -17598,10 +17341,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 90
-        },
-        {
           "ctftime_team_id": 2500,
           "place": 101
         }
@@ -17617,16 +17356,8 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 2
-        },
-        {
           "ctftime_team_id": 3135,
           "place": 11
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 26
         },
         {
           "ctftime_team_id": 64660,
@@ -17699,10 +17430,6 @@
           "place": 44
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 81
-        },
-        {
           "ctftime_team_id": 397,
           "place": 100
         },
@@ -17740,10 +17467,6 @@
         {
           "ctftime_team_id": 25932,
           "place": 87
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 91
         },
         {
           "ctftime_team_id": 8754,
@@ -17800,10 +17523,6 @@
           "place": 38
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 57
-        },
-        {
           "ctftime_team_id": 3629,
           "place": 57
         },
@@ -17814,10 +17533,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 64
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 66
         },
         {
           "ctftime_team_id": 34010,
@@ -17841,10 +17556,6 @@
         {
           "ctftime_team_id": 397,
           "place": 141
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 172
         },
         {
           "ctftime_team_id": 25932,
@@ -17878,16 +17589,8 @@
           "place": 69
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 77
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 157
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 184
         },
         {
           "ctftime_team_id": 3602,
@@ -17909,10 +17612,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 24
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 36
         },
@@ -17923,10 +17622,6 @@
         {
           "ctftime_team_id": 30563,
           "place": 56
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 107
         },
         {
           "ctftime_team_id": 397,
@@ -18010,10 +17705,6 @@
           "place": 42
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 65
-        },
-        {
           "ctftime_team_id": 439,
           "place": 100
         },
@@ -18032,10 +17723,6 @@
         {
           "ctftime_team_id": 2500,
           "place": 282
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 295
         }
       ]
     },
@@ -18075,10 +17762,6 @@
         {
           "ctftime_team_id": 30563,
           "place": 146
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 149
         },
         {
           "ctftime_team_id": 2524,
@@ -18132,10 +17815,6 @@
           "place": 60
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 71
-        },
-        {
           "ctftime_team_id": 397,
           "place": 76
         },
@@ -18160,10 +17839,6 @@
           "place": 167
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 171
-        },
-        {
           "ctftime_team_id": 315,
           "place": 319
         },
@@ -18186,10 +17861,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 5
-        },
         {
           "ctftime_team_id": 14321,
           "place": 71
@@ -18262,10 +17933,6 @@
           "place": 21
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 43
-        },
-        {
           "ctftime_team_id": 397,
           "place": 57
         },
@@ -18299,10 +17966,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 11
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 15
         }
       ]
     },
@@ -18318,10 +17981,6 @@
         {
           "ctftime_team_id": 572,
           "place": 7
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 30
         },
         {
           "ctftime_team_id": 2524,
@@ -18360,10 +18019,6 @@
         },
         {
           "ctftime_team_id": 72857,
-          "place": 10
-        },
-        {
-          "ctftime_team_id": 60210,
           "place": 10
         },
         {
@@ -18468,14 +18123,6 @@
         {
           "ctftime_team_id": 2511,
           "place": 35
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 37
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 80
         },
         {
           "ctftime_team_id": 572,
@@ -18597,10 +18244,6 @@
           "place": 14
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 20
-        },
-        {
           "ctftime_team_id": 397,
           "place": 25
         },
@@ -18619,10 +18262,6 @@
         {
           "ctftime_team_id": 70959,
           "place": 167
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 228
         },
         {
           "ctftime_team_id": 24526,
@@ -18648,10 +18287,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 22
-        },
-        {
           "ctftime_team_id": 397,
           "place": 24
         },
@@ -18662,10 +18297,6 @@
         {
           "ctftime_team_id": 3629,
           "place": 140
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 208
         },
         {
           "ctftime_team_id": 2511,
@@ -18695,10 +18326,6 @@
           "place": 40
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 46
-        },
-        {
           "ctftime_team_id": 25932,
           "place": 163
         },
@@ -18717,10 +18344,6 @@
         {
           "ctftime_team_id": 30563,
           "place": 404
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 414
         },
         {
           "ctftime_team_id": 24704,
@@ -18742,20 +18365,12 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 3
-        },
-        {
           "ctftime_team_id": 12858,
           "place": 7
         },
         {
           "ctftime_team_id": 45787,
           "place": 14
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 17
         },
         {
           "ctftime_team_id": 397,
@@ -18829,20 +18444,12 @@
           "place": 60
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 80
-        },
-        {
           "ctftime_team_id": 25932,
           "place": 95
         },
         {
           "ctftime_team_id": 11464,
           "place": 139
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 168
         },
         {
           "ctftime_team_id": 2500,
@@ -18884,20 +18491,12 @@
           "place": 8
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 22
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 62
         },
         {
           "ctftime_team_id": 397,
           "place": 72
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 125
         },
         {
           "ctftime_team_id": 439,
@@ -18955,10 +18554,6 @@
           "place": 564
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 657
-        },
-        {
           "ctftime_team_id": 73624,
           "place": 674
         },
@@ -18982,20 +18577,12 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 54
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 75
         },
         {
           "ctftime_team_id": 24511,
           "place": 122
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 209
         },
         {
           "ctftime_team_id": 2511,
@@ -19019,10 +18606,6 @@
         {
           "ctftime_team_id": 439,
           "place": 96
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 100
         },
         {
           "ctftime_team_id": 25932,
@@ -19072,10 +18655,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 10
-        },
-        {
           "ctftime_team_id": 12858,
           "place": 42
         },
@@ -19111,20 +18690,12 @@
           "place": 1
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 12
-        },
-        {
           "ctftime_team_id": 397,
           "place": 19
         },
         {
           "ctftime_team_id": 73624,
           "place": 25
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 28
         },
         {
           "ctftime_team_id": 439,
@@ -19170,10 +18741,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 29
-        },
-        {
           "ctftime_team_id": 34936,
           "place": 68
         },
@@ -19213,10 +18780,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 31
-        },
-        {
           "ctftime_team_id": 30563,
           "place": 88
         }
@@ -19250,10 +18813,6 @@
         {
           "ctftime_team_id": 30563,
           "place": 174
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 186
         },
         {
           "ctftime_team_id": 3602,
@@ -19297,10 +18856,6 @@
         {
           "ctftime_team_id": 3135,
           "place": 19
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 26
         },
         {
           "ctftime_team_id": 30563,
@@ -19349,10 +18904,6 @@
       "format": "Jeopardy",
       "restrictions": "High-school",
       "rankings": [
-        {
-          "ctftime_team_id": 55508,
-          "place": 1
-        },
         {
           "ctftime_team_id": 73624,
           "place": 7
@@ -19472,10 +19023,6 @@
         {
           "ctftime_team_id": 70959,
           "place": 182
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 235
         },
         {
           "ctftime_team_id": 2511,
@@ -19615,16 +19162,8 @@
           "place": 13
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 16
-        },
-        {
           "ctftime_team_id": 73624,
           "place": 47
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 48
         },
         {
           "ctftime_team_id": 73620,
@@ -19722,10 +19261,6 @@
           "place": 56
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 60
-        },
-        {
           "ctftime_team_id": 284,
           "place": 64
         },
@@ -19809,10 +19344,6 @@
           "place": 56
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 77
-        },
-        {
           "ctftime_team_id": 70959,
           "place": 81
         },
@@ -19842,10 +19373,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 37
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 256
         },
         {
           "ctftime_team_id": 397,
@@ -19894,10 +19421,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 69
-        },
-        {
           "ctftime_team_id": 397,
           "place": 75
         },
@@ -19928,10 +19451,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 21
-        },
         {
           "ctftime_team_id": 285,
           "place": 27
@@ -19986,10 +19505,6 @@
         {
           "ctftime_team_id": 78374,
           "place": 155
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 171
         },
         {
           "ctftime_team_id": 25905,
@@ -20065,20 +19580,12 @@
           "place": 23
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 51
-        },
-        {
           "ctftime_team_id": 14321,
           "place": 68
         },
         {
           "ctftime_team_id": 397,
           "place": 90
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 169
         },
         {
           "ctftime_team_id": 73624,
@@ -20099,10 +19606,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 45
-        },
         {
           "ctftime_team_id": 572,
           "place": 62
@@ -20142,10 +19645,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 15
-        },
         {
           "ctftime_team_id": 11464,
           "place": 41
@@ -20236,10 +19735,6 @@
           "place": 278
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 333
-        },
-        {
           "ctftime_team_id": 11464,
           "place": 366
         },
@@ -20281,10 +19776,6 @@
         {
           "ctftime_team_id": 20541,
           "place": 28
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 33
         },
         {
           "ctftime_team_id": 39346,
@@ -20384,10 +19875,6 @@
           "place": 18
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 87
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 106
         },
@@ -20425,10 +19912,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 6
-        },
         {
           "ctftime_team_id": 39346,
           "place": 18
@@ -20480,10 +19963,6 @@
           "place": 103
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 109
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 165
         },
@@ -20510,10 +19989,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 75
-        },
         {
           "ctftime_team_id": 64660,
           "place": 114
@@ -20623,10 +20098,6 @@
           "place": 16
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 42
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 73
         },
@@ -20684,10 +20155,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 26
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 101
         }
       ]
     },
@@ -20707,10 +20174,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 39
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 41
         },
         {
           "ctftime_team_id": 446,
@@ -20760,10 +20223,6 @@
           "place": 74
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 103
-        },
-        {
           "ctftime_team_id": 70959,
           "place": 218
         },
@@ -20789,10 +20248,6 @@
         {
           "ctftime_team_id": 75919,
           "place": 1
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 2
         }
       ]
     },
@@ -20820,10 +20275,6 @@
         {
           "ctftime_team_id": 397,
           "place": 70
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 80
         },
         {
           "ctftime_team_id": 46051,
@@ -20915,10 +20366,6 @@
         {
           "ctftime_team_id": 315,
           "place": 788
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 801
         }
       ]
     },
@@ -20950,10 +20397,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 173
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 196
         }
       ]
     },
@@ -20998,10 +20441,6 @@
           "place": 56
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 70
-        },
-        {
           "ctftime_team_id": 397,
           "place": 105
         },
@@ -21023,10 +20462,6 @@
         {
           "ctftime_team_id": 572,
           "place": 4
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 5
         },
         {
           "ctftime_team_id": 27763,
@@ -21071,10 +20506,6 @@
         {
           "ctftime_team_id": 573,
           "place": 158
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 184
         },
         {
           "ctftime_team_id": 11464,
@@ -21255,10 +20686,6 @@
           "place": 62
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 85
-        },
-        {
           "ctftime_team_id": 39346,
           "place": 141
         },
@@ -21322,10 +20749,6 @@
           "place": 19
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 43
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 51
         }
@@ -21351,10 +20774,6 @@
         {
           "ctftime_team_id": 446,
           "place": 131
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 134
         },
         {
           "ctftime_team_id": 64660,
@@ -21398,10 +20817,6 @@
         {
           "ctftime_team_id": 78374,
           "place": 53
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 69
         },
         {
           "ctftime_team_id": 64660,
@@ -21448,10 +20863,6 @@
         {
           "ctftime_team_id": 25905,
           "place": 131
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 158
         },
         {
           "ctftime_team_id": 39346,
@@ -21599,10 +21010,6 @@
         {
           "ctftime_team_id": 46051,
           "place": 289
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 296
         },
         {
           "ctftime_team_id": 285,
@@ -22004,10 +21411,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 3
-        },
-        {
           "ctftime_team_id": 38564,
           "place": 10
         },
@@ -22097,10 +21500,6 @@
           "place": 30
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 38
-        },
-        {
           "ctftime_team_id": 285,
           "place": 101
         },
@@ -22162,10 +21561,6 @@
         {
           "ctftime_team_id": 25932,
           "place": 142
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 165
         },
         {
           "ctftime_team_id": 2524,
@@ -22277,10 +21672,6 @@
           "place": 21
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 29
-        },
-        {
           "ctftime_team_id": 439,
           "place": 30
         },
@@ -22355,20 +21746,12 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 55508,
-          "place": 63
-        },
-        {
           "ctftime_team_id": 397,
           "place": 81
         },
         {
           "ctftime_team_id": 83621,
           "place": 85
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 94
         },
         {
           "ctftime_team_id": 46051,
@@ -22459,10 +21842,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 55508,
-          "place": 17
-        },
         {
           "ctftime_team_id": 27763,
           "place": 128
@@ -22556,21 +21935,6 @@
       ]
     },
     {
-      "name": "justCTF 2019",
-      "ctftime_id": 943,
-      "ctftime_weight": 24.85,
-      "start_time": "2019-12-20T20:00:00+00:00",
-      "end_time": "2019-12-22T09:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 55508,
-          "place": 4
-        }
-      ]
-    },
-    {
       "name": "UTC-CTF 2019 Teaser",
       "ctftime_id": 948,
       "ctftime_weight": 0.0,
@@ -22582,10 +21946,6 @@
         {
           "ctftime_team_id": 397,
           "place": 3
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 68
         },
         {
           "ctftime_team_id": 81423,
@@ -22667,10 +22027,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 55508,
-          "place": 31
-        },
         {
           "ctftime_team_id": 397,
           "place": 78
@@ -22886,10 +22242,6 @@
           "place": 296
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 541
-        },
-        {
           "ctftime_team_id": 15342,
           "place": 573
         },
@@ -22935,10 +22287,6 @@
         {
           "ctftime_team_id": 11464,
           "place": 238
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 316
         }
       ]
     },
@@ -22951,10 +22299,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 15
-        },
         {
           "ctftime_team_id": 2511,
           "place": 29
@@ -23040,10 +22384,6 @@
         {
           "ctftime_team_id": 439,
           "place": 88
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 126
         }
       ]
     },
@@ -23109,10 +22449,6 @@
         {
           "ctftime_team_id": 315,
           "place": 49
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 85
         },
         {
           "ctftime_team_id": 24511,
@@ -23239,10 +22575,6 @@
           "place": 5
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 6
-        },
-        {
           "ctftime_team_id": 285,
           "place": 29
         },
@@ -23295,10 +22627,6 @@
           "place": 258
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 280
-        },
-        {
           "ctftime_team_id": 14321,
           "place": 290
         },
@@ -23340,10 +22668,6 @@
         {
           "ctftime_team_id": 397,
           "place": 126
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 269
         },
         {
           "ctftime_team_id": 64660,
@@ -23419,10 +22743,6 @@
         {
           "ctftime_team_id": 81423,
           "place": 258
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 441
         }
       ]
     },
@@ -23696,10 +23016,6 @@
         {
           "ctftime_team_id": 111877,
           "place": 289
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 345
         }
       ]
     },
@@ -23882,10 +23198,6 @@
           "place": 827
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 1044
-        },
-        {
           "ctftime_team_id": 114603,
           "place": 1170
         }
@@ -24058,10 +23370,6 @@
           "place": 142
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 260
-        },
-        {
           "ctftime_team_id": 11464,
           "place": 296
         },
@@ -24126,10 +23434,6 @@
         {
           "ctftime_team_id": 70959,
           "place": 50
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 62
         },
         {
           "ctftime_team_id": 83621,
@@ -24339,10 +23643,6 @@
           "place": 525
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 551
-        },
-        {
           "ctftime_team_id": 15342,
           "place": 556
         },
@@ -24451,10 +23751,6 @@
         {
           "ctftime_team_id": 111877,
           "place": 438
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 455
         },
         {
           "ctftime_team_id": 87711,
@@ -26220,10 +25516,6 @@
           "place": 279
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 328
-        },
-        {
           "ctftime_team_id": 3135,
           "place": 357
         },
@@ -26453,10 +25745,6 @@
           "place": 1
         },
         {
-          "ctftime_team_id": 55508,
-          "place": 3
-        },
-        {
           "ctftime_team_id": 38564,
           "place": 6
         },
@@ -26587,10 +25875,6 @@
         {
           "ctftime_team_id": 89667,
           "place": 545
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 605
         },
         {
           "ctftime_team_id": 24526,
@@ -27034,10 +26318,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 44
-        },
-        {
           "ctftime_team_id": 108190,
           "place": 112
         },
@@ -27135,10 +26415,6 @@
           "place": 43
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 101
-        },
-        {
           "ctftime_team_id": 2511,
           "place": 342
         },
@@ -27223,10 +26499,6 @@
         {
           "ctftime_team_id": 573,
           "place": 71
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 86
         },
         {
           "ctftime_team_id": 81423,
@@ -27314,10 +26586,6 @@
           "place": 232
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 238
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 272
         }
@@ -27351,10 +26619,6 @@
         {
           "ctftime_team_id": 8754,
           "place": 288
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 361
         },
         {
           "ctftime_team_id": 2511,
@@ -27456,10 +26720,6 @@
         {
           "ctftime_team_id": 2500,
           "place": 34
-        },
-        {
-          "ctftime_team_id": 55508,
-          "place": 43
         }
       ]
     },
@@ -27487,10 +26747,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 28
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 30
         },
         {
           "ctftime_team_id": 11464,
@@ -27568,10 +26824,6 @@
           "place": 309
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 357
-        },
-        {
           "ctftime_team_id": 108190,
           "place": 360
         }
@@ -27624,10 +26876,6 @@
         {
           "ctftime_team_id": 83621,
           "place": 130
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 132
         },
         {
           "ctftime_team_id": 87727,
@@ -27830,10 +27078,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 12
-        },
         {
           "ctftime_team_id": 439,
           "place": 100
@@ -28453,10 +27697,6 @@
           "place": 281
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 382
-        },
-        {
           "ctftime_team_id": 87711,
           "place": 384
         },
@@ -28711,21 +27951,6 @@
       ]
     },
     {
-      "name": "BSidesSF 2021 CTF",
-      "ctftime_id": 1299,
-      "ctftime_weight": 23.94,
-      "start_time": "2021-03-06T20:00:00+00:00",
-      "end_time": "2021-03-08T22:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 5
-        }
-      ]
-    },
-    {
       "name": "DaVinciCTF 2021",
       "ctftime_id": 1296,
       "ctftime_weight": 24.5,
@@ -28757,10 +27982,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 45
-        },
         {
           "ctftime_team_id": 397,
           "place": 63
@@ -28885,10 +28106,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 68
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 123
         }
       ]
     },
@@ -29333,10 +28550,6 @@
           "place": 296
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 304
-        },
-        {
           "ctftime_team_id": 152691,
           "place": 320
         },
@@ -29424,10 +28637,6 @@
         {
           "ctftime_team_id": 439,
           "place": 42
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 78
         },
         {
           "ctftime_team_id": 81423,
@@ -29676,10 +28885,6 @@
           "place": 18
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 34
-        },
-        {
           "ctftime_team_id": 81423,
           "place": 38
         },
@@ -29791,10 +28996,6 @@
         {
           "ctftime_team_id": 121331,
           "place": 662
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 736
         }
       ]
     },
@@ -30004,10 +29205,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 60210,
-          "place": 55
-        },
-        {
           "ctftime_team_id": 64660,
           "place": 118
         },
@@ -30100,10 +29297,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 89
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 164
         }
       ]
     },
@@ -30240,10 +29433,6 @@
         {
           "ctftime_team_id": 397,
           "place": 125
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 137
         },
         {
           "ctftime_team_id": 84345,
@@ -30441,10 +29630,6 @@
           "place": 205
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 220
-        },
-        {
           "ctftime_team_id": 121331,
           "place": 247
         },
@@ -30584,10 +29769,6 @@
           "place": 86
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 97
-        },
-        {
           "ctftime_team_id": 152691,
           "place": 151
         },
@@ -30602,21 +29783,6 @@
         {
           "ctftime_team_id": 81423,
           "place": 278
-        }
-      ]
-    },
-    {
-      "name": "IJCTF 2021",
-      "ctftime_id": 1382,
-      "ctftime_weight": 23.39,
-      "start_time": "2021-07-24T07:30:00+00:00",
-      "end_time": "2021-07-25T07:30:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 111
         }
       ]
     },
@@ -31152,10 +30318,6 @@
           "place": 757
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 946
-        },
-        {
           "ctftime_team_id": 78233,
           "place": 1085
         },
@@ -31574,10 +30736,6 @@
           "place": 252
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 486
-        },
-        {
           "ctftime_team_id": 78233,
           "place": 1035
         }
@@ -31603,10 +30761,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 73
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 255
         },
         {
           "ctftime_team_id": 397,
@@ -31670,10 +30824,6 @@
         {
           "ctftime_team_id": 112673,
           "place": 121
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 171
         },
         {
           "ctftime_team_id": 8754,
@@ -31899,21 +31049,6 @@
       ]
     },
     {
-      "name": "Winja CTF | c0c0n 2021",
-      "ctftime_id": 1477,
-      "ctftime_weight": 22.7,
-      "start_time": "2021-11-12T16:30:00+00:00",
-      "end_time": "2021-11-13T06:30:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 28
-        }
-      ]
-    },
-    {
       "name": "K3RN3LCTF",
       "ctftime_id": 1438,
       "ctftime_weight": 24.37,
@@ -31949,10 +31084,6 @@
         {
           "ctftime_team_id": 8754,
           "place": 154
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 397
         }
       ]
     },
@@ -32214,10 +31345,6 @@
           "place": 16
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 139
-        },
-        {
           "ctftime_team_id": 65296,
           "place": 158
         }
@@ -32232,10 +31359,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 49
-        },
         {
           "ctftime_team_id": 155711,
           "place": 58
@@ -32266,10 +31389,6 @@
         {
           "ctftime_team_id": 65296,
           "place": 56
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 214
         }
       ]
     },
@@ -32375,10 +31494,6 @@
       "format": "Hack quest",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 6
-        },
         {
           "ctftime_team_id": 439,
           "place": 13
@@ -33272,10 +32387,6 @@
           "place": 212
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 447
-        },
-        {
           "ctftime_team_id": 12858,
           "place": 465
         }
@@ -33421,10 +32532,6 @@
         {
           "ctftime_team_id": 155711,
           "place": 307
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 618
         }
       ]
     },
@@ -33510,10 +32617,6 @@
         {
           "ctftime_team_id": 2500,
           "place": 63
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 70
         },
         {
           "ctftime_team_id": 178160,
@@ -34064,10 +33167,6 @@
           "place": 110
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 111
-        },
-        {
           "ctftime_team_id": 2500,
           "place": 266
         },
@@ -34218,10 +33317,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 251
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 255
         },
         {
           "ctftime_team_id": 20541,
@@ -34467,10 +33562,6 @@
           "place": 219
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 361
-        },
-        {
           "ctftime_team_id": 10318,
           "place": 415
         },
@@ -34625,21 +33716,6 @@
       ]
     },
     {
-      "name": "UA CWS CTF 2022",
-      "ctftime_id": 1674,
-      "ctftime_weight": 23.47,
-      "start_time": "2022-05-23T09:00:00+00:00",
-      "end_time": "2022-05-27T23:59:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 156
-        }
-      ]
-    },
-    {
       "name": "BYUCTF 2022",
       "ctftime_id": 1660,
       "ctftime_weight": 20.91,
@@ -34655,10 +33731,6 @@
         {
           "ctftime_team_id": 154567,
           "place": 130
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 131
         },
         {
           "ctftime_team_id": 83621,
@@ -34988,21 +34060,6 @@
       ]
     },
     {
-      "name": "WeCTF 2022",
-      "ctftime_id": 1546,
-      "ctftime_weight": 36.12,
-      "start_time": "2022-06-11T18:00:00+00:00",
-      "end_time": "2022-06-12T18:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 44
-        }
-      ]
-    },
-    {
       "name": "TyphoonCon CTF 2022",
       "ctftime_id": 1672,
       "ctftime_weight": 21.5,
@@ -35207,10 +34264,6 @@
         {
           "ctftime_team_id": 397,
           "place": 200
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 274
         },
         {
           "ctftime_team_id": 24704,
@@ -35444,21 +34497,6 @@
       ]
     },
     {
-      "name": "UACTF 2022",
-      "ctftime_id": 1709,
-      "ctftime_weight": 22.55,
-      "start_time": "2022-07-30T01:30:00+00:00",
-      "end_time": "2022-08-01T01:30:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 222
-        }
-      ]
-    },
-    {
       "name": "Arab Security Cyber Wargames 2022 Qualifications",
       "ctftime_id": 1690,
       "ctftime_weight": 25.0,
@@ -35574,10 +34612,6 @@
         {
           "ctftime_team_id": 155711,
           "place": 199
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 295
         },
         {
           "ctftime_team_id": 2500,
@@ -35985,10 +35019,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 238
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 331
         }
       ]
     },
@@ -36274,10 +35304,6 @@
         {
           "ctftime_team_id": 24704,
           "place": 271
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 300
         }
       ]
     },
@@ -36641,10 +35667,6 @@
         {
           "ctftime_team_id": 64660,
           "place": 80
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 191
         }
       ]
     },
@@ -36712,10 +35734,6 @@
         {
           "ctftime_team_id": 78233,
           "place": 103
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 110
         },
         {
           "ctftime_team_id": 53812,
@@ -36864,10 +35882,6 @@
           "place": 162
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 308
-        },
-        {
           "ctftime_team_id": 446,
           "place": 349
         },
@@ -36964,10 +35978,6 @@
         {
           "ctftime_team_id": 446,
           "place": 146
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 183
         },
         {
           "ctftime_team_id": 397,
@@ -37186,14 +36196,6 @@
         {
           "ctftime_team_id": 397,
           "place": 72
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 120
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 251
         },
         {
           "ctftime_team_id": 202828,
@@ -37581,10 +36583,6 @@
           "place": 481
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 489
-        },
-        {
           "ctftime_team_id": 202828,
           "place": 604
         }
@@ -37622,10 +36620,6 @@
         {
           "ctftime_team_id": 121331,
           "place": 233
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 253
         },
         {
           "ctftime_team_id": 178160,
@@ -37687,10 +36681,6 @@
           "place": 264
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 383
-        },
-        {
           "ctftime_team_id": 25905,
           "place": 408
         }
@@ -37740,21 +36730,6 @@
         {
           "ctftime_team_id": 202828,
           "place": 467
-        }
-      ]
-    },
-    {
-      "name": "Insomni'hack teaser 2023",
-      "ctftime_id": 1831,
-      "ctftime_weight": 21.38,
-      "start_time": "2023-01-21T12:00:00+00:00",
-      "end_time": "2023-01-22T12:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 129
         }
       ]
     },
@@ -37881,10 +36856,6 @@
         {
           "ctftime_team_id": 25932,
           "place": 455
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 695
         },
         {
           "ctftime_team_id": 202828,
@@ -38050,10 +37021,6 @@
         {
           "ctftime_team_id": 439,
           "place": 50
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 92
         },
         {
           "ctftime_team_id": 65296,
@@ -38268,14 +37235,6 @@
         {
           "ctftime_team_id": 8754,
           "place": 440
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 530
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 854
         }
       ]
     },
@@ -38462,10 +37421,6 @@
           "place": 200
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 396
-        },
-        {
           "ctftime_team_id": 183235,
           "place": 459
         }
@@ -38534,10 +37489,6 @@
         {
           "ctftime_team_id": 24704,
           "place": 173
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 220
         },
         {
           "ctftime_team_id": 53799,
@@ -38698,10 +37649,6 @@
         {
           "ctftime_team_id": 78233,
           "place": 40
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 46
         },
         {
           "ctftime_team_id": 439,
@@ -38938,10 +37885,6 @@
         {
           "ctftime_team_id": 202828,
           "place": 305
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 433
         },
         {
           "ctftime_team_id": 24526,
@@ -39485,10 +38428,6 @@
         {
           "ctftime_team_id": 78233,
           "place": 11
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 75
         }
       ]
     },
@@ -40036,10 +38975,6 @@
           "place": 3
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 6
-        },
-        {
           "ctftime_team_id": 47011,
           "place": 61
         },
@@ -40073,10 +39008,6 @@
         {
           "ctftime_team_id": 47011,
           "place": 278
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 663
         }
       ]
     },
@@ -40092,10 +39023,6 @@
         {
           "ctftime_team_id": 166729,
           "place": 1
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 4
         },
         {
           "ctftime_team_id": 25905,
@@ -40200,10 +39127,6 @@
         {
           "ctftime_team_id": 145631,
           "place": 408
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 1366
         }
       ]
     },
@@ -40450,10 +39373,6 @@
       "restrictions": "Open",
       "rankings": [
         {
-          "ctftime_team_id": 202847,
-          "place": 18
-        },
-        {
           "ctftime_team_id": 201730,
           "place": 52
         },
@@ -40527,10 +39446,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 202847,
-          "place": 54
-        },
         {
           "ctftime_team_id": 2524,
           "place": 137
@@ -40704,21 +39619,6 @@
       ]
     },
     {
-      "name": "ESCAPE CTF 2023 Preliminary",
-      "ctftime_id": 2022,
-      "ctftime_weight": 0.0,
-      "start_time": "2023-08-05T01:00:00+00:00",
-      "end_time": "2023-08-05T09:00:00+00:00",
-      "format": "Jeopardy",
-      "restrictions": "Open",
-      "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 16
-        }
-      ]
-    },
-    {
       "name": "Lexington Informatics Tournament CTF 2023",
       "ctftime_id": 2052,
       "ctftime_weight": 33.53,
@@ -40852,10 +39752,6 @@
         {
           "ctftime_team_id": 202828,
           "place": 69
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 316
         }
       ]
     },
@@ -40890,10 +39786,6 @@
         {
           "ctftime_team_id": 166729,
           "place": 9
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 114
         },
         {
           "ctftime_team_id": 284,
@@ -41035,10 +39927,6 @@
         {
           "ctftime_team_id": 202828,
           "place": 234
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 323
         },
         {
           "ctftime_team_id": 2500,
@@ -41618,10 +40506,6 @@
         {
           "ctftime_team_id": 83621,
           "place": 18
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 20
         },
         {
           "ctftime_team_id": 3135,
@@ -43138,10 +42022,6 @@
           "place": 81
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 133
-        },
-        {
           "ctftime_team_id": 78233,
           "place": 147
         },
@@ -43402,10 +42282,6 @@
         {
           "ctftime_team_id": 284,
           "place": 412
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 455
         },
         {
           "ctftime_team_id": 202828,
@@ -43787,10 +42663,6 @@
         {
           "ctftime_team_id": 186494,
           "place": 215
-        },
-        {
-          "ctftime_team_id": 60210,
-          "place": 244
         },
         {
           "ctftime_team_id": 34958,
@@ -44223,10 +43095,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 202847,
-          "place": 4
-        },
         {
           "ctftime_team_id": 283028,
           "place": 59
@@ -45061,10 +43929,6 @@
           "place": 9
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 12
-        },
-        {
           "ctftime_team_id": 186494,
           "place": 56
         },
@@ -45204,10 +44068,6 @@
           "place": 4
         },
         {
-          "ctftime_team_id": 202847,
-          "place": 43
-        },
-        {
           "ctftime_team_id": 186494,
           "place": 62
         },
@@ -45340,10 +44200,6 @@
           "place": 379
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 389
-        },
-        {
           "ctftime_team_id": 202828,
           "place": 605
         },
@@ -45373,10 +44229,6 @@
         {
           "ctftime_team_id": 439,
           "place": 67
-        },
-        {
-          "ctftime_team_id": 202847,
-          "place": 81
         },
         {
           "ctftime_team_id": 20541,
@@ -49106,10 +47958,6 @@
           "place": 1763
         },
         {
-          "ctftime_team_id": 60210,
-          "place": 1765
-        },
-        {
           "ctftime_team_id": 110145,
           "place": 2042
         },
@@ -50746,10 +49594,6 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
-        {
-          "ctftime_team_id": 60210,
-          "place": 116
-        },
         {
           "ctftime_team_id": 2500,
           "place": 132
