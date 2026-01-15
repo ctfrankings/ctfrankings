@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CTFRankings: Capture The Flag Rankings</title>
+    <meta
+      name="description"
+      content="CTF rankings by academic institution, inspired by csrankings."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="site-title">
+          <h1>CTFRankings: Capture The Flag Rankings</h1>
+          <p>
+            A csrankings-style leaderboard that awards 1 point to academic teams who place in the
+            top N academic finishers of each ranked CTF. Institutions collect points through their
+            teams.
+          </p>
+        </div>
+        <div class="site-meta">
+          <span id="data-range">Loading dataset…</span>
+          <nav class="site-nav">
+            <button class="link" id="jump-table">Rankings</button>
+            <button class="link" id="jump-method">Methodology</button>
+          </nav>
+        </div>
+      </header>
+
+      <section class="stats">
+        <span>Institutions: <strong id="stat-institutions">—</strong></span>
+        <span>Academic teams: <strong id="stat-teams">—</strong></span>
+        <span>Eligible CTFs: <strong id="stat-events">—</strong></span>
+        <span>Top N: <strong id="stat-topn">5</strong></span>
+      </section>
+
+      <section class="panel" id="controls">
+        <h2>Filters</h2>
+        <div class="filters">
+          <label>
+            Search
+            <input type="search" id="search" placeholder="Institution" />
+          </label>
+          <label>
+            Top N
+            <select id="topn">
+              <option value="3">3</option>
+              <option value="5" selected>5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+            </select>
+          </label>
+          <label>
+            Min weight
+            <input type="number" id="weight-min" step="0.1" />
+          </label>
+          <label>
+            From year
+            <select id="year-start"></select>
+          </label>
+          <label>
+            To year
+            <select id="year-end"></select>
+          </label>
+          <label>
+            Country
+            <select id="country">
+              <option value="all">All</option>
+            </select>
+          </label>
+          <button class="button" id="reset">Reset</button>
+        </div>
+        <div class="summary" id="summary">Loading results…</div>
+      </section>
+
+      <section class="panel" id="leaderboard">
+        <h2>Institutional Rankings</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Institution</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <tr>
+                <td colspan="3" class="loading">Loading rankings…</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel" id="methodology">
+        <h2>Methodology</h2>
+        <p>
+          We only consider teams tied to academic institutions. For each ranked CTF, we sort
+          academic teams by their overall placing and give 1 point to each of the top N academic
+          teams. Institutions sum points across all their teams.
+        </p>
+        <p id="data-note">Data sourced from ctfrankings.json.</p>
+      </section>
+
+      <footer class="footer">
+        <span>Prototype leaderboard for academic CTF performance.</span>
+        <span>Hosted on GitHub Pages.</span>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

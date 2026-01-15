@@ -1,0 +1,276 @@
+:root {
+  color-scheme: light;
+  --text: #111;
+  --muted: #555;
+  --border: #d0d0d0;
+  --header-bg: #f3f3f3;
+  --link: #1a0dab;
+  --link-hover: #c00;
+  --panel-bg: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  line-height: 1.4;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.site-title h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.site-title p {
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+.site-meta {
+  text-align: right;
+  color: var(--muted);
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 12px 0 20px;
+}
+
+.stats strong {
+  color: var(--text);
+}
+
+.panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--border);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  align-items: flex-end;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.filters input,
+.filters select {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.button {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  background: #f7f7f7;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.summary {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+thead {
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+th,
+ td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.flag {
+  display: inline-block;
+  width: 1.6em;
+  text-align: center;
+  margin-right: 6px;
+}
+
+tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+tbody tr[data-detail] {
+  cursor: pointer;
+}
+
+tbody tr[data-detail].open {
+  background: #f1f1f1;
+}
+
+.detail-row {
+  display: none;
+  background: #f9f9f9;
+}
+
+.detail-row.open {
+  display: table-row;
+}
+
+.detail-block {
+  padding: 8px 4px;
+}
+
+.detail-section {
+  margin-bottom: 12px;
+}
+
+.detail-label {
+  display: block;
+  font-weight: bold;
+  color: var(--muted);
+  margin-bottom: 4px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.detail-value {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.detail-table-wrap {
+  overflow-x: auto;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.detail-table thead {
+  background: #f0f0f0;
+}
+
+.detail-table th,
+.detail-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.detail-muted {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.loading {
+  text-align: center;
+  color: var(--muted);
+}
+
+.link {
+  background: none;
+  border: none;
+  color: var(--link);
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--link-hover);
+}
+
+a.link {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a.link:hover {
+  color: var(--link-hover);
+}
+
+.footer {
+  color: var(--muted);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-meta {
+    text-align: left;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
+  }
+}
