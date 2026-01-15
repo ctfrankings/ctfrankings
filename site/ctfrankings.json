@@ -125,6 +125,10 @@
       "country": "US",
       "teams": [
         {
+          "name": "Maple Mallard Magistrates",
+          "ctftime_id": 193591
+        },
+        {
           "name": "Plaid Parliament of Pwning",
           "ctftime_id": 284
         }
@@ -891,6 +895,20 @@
         {
           "name": "UAFCSC",
           "ctftime_id": 58461
+        }
+      ]
+    },
+    "University of British Columbia": {
+      "website": "https://www.ubc.ca/",
+      "country": "CA",
+      "teams": [
+        {
+          "name": "Maple Bacon",
+          "ctftime_id": 73723
+        },
+        {
+          "name": "Maple Mallard Magistrates",
+          "ctftime_id": 193591
         }
       ]
     },
@@ -18062,6 +18080,10 @@
           "place": 50
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 130
+        },
+        {
           "ctftime_team_id": 24526,
           "place": 137
         },
@@ -18322,6 +18344,10 @@
           "place": 30
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 34
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 40
         },
@@ -18499,6 +18525,10 @@
           "place": 72
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 228
+        },
+        {
           "ctftime_team_id": 439,
           "place": 429
         }
@@ -18520,6 +18550,10 @@
         {
           "ctftime_team_id": 572,
           "place": 16
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 22
         },
         {
           "ctftime_team_id": 284,
@@ -18599,6 +18633,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 41
+        },
         {
           "ctftime_team_id": 572,
           "place": 43
@@ -18745,6 +18783,10 @@
           "place": 68
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 119
+        },
+        {
           "ctftime_team_id": 284,
           "place": 187
         },
@@ -18813,6 +18855,10 @@
         {
           "ctftime_team_id": 30563,
           "place": 174
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 291
         },
         {
           "ctftime_team_id": 3602,
@@ -19094,6 +19140,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 206
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 226
         },
         {
           "ctftime_team_id": 24511,
@@ -19491,6 +19541,10 @@
           "place": 38
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 47
+        },
+        {
           "ctftime_team_id": 439,
           "place": 75
         },
@@ -19625,6 +19679,10 @@
         {
           "ctftime_team_id": 2500,
           "place": 467
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 477
         },
         {
           "ctftime_team_id": 30012,
@@ -19848,6 +19906,10 @@
           "place": 24
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 41
+        },
+        {
           "ctftime_team_id": 572,
           "place": 142
         },
@@ -19954,6 +20016,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 25
+        },
         {
           "ctftime_team_id": 285,
           "place": 63
@@ -20071,6 +20137,10 @@
           "place": 116
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 125
+        },
+        {
           "ctftime_team_id": 39346,
           "place": 196
         },
@@ -20100,6 +20170,10 @@
         {
           "ctftime_team_id": 64660,
           "place": 73
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 76
         },
         {
           "ctftime_team_id": 39346,
@@ -20410,6 +20484,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
+        {
           "ctftime_team_id": 284,
           "place": 11
         },
@@ -20522,6 +20600,10 @@
         {
           "ctftime_team_id": 25905,
           "place": 220
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 242
         },
         {
           "ctftime_team_id": 315,
@@ -21167,6 +21249,10 @@
           "place": 63
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 83
+        },
+        {
           "ctftime_team_id": 3629,
           "place": 112
         },
@@ -21247,6 +21333,10 @@
         {
           "ctftime_team_id": 284,
           "place": 6
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 19
         },
         {
           "ctftime_team_id": 397,
@@ -21651,6 +21741,21 @@
       ]
     },
     {
+      "name": "Trend Micro CTF 2019 - Raimund Genes Cup - The Final",
+      "ctftime_id": 907,
+      "ctftime_weight": 30.0,
+      "start_time": "2019-11-23T14:00:00+00:00",
+      "end_time": "2019-11-24T08:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
+        }
+      ]
+    },
+    {
       "name": "TUCTF 2019",
       "ctftime_id": 829,
       "ctftime_weight": 27.16,
@@ -21745,6 +21850,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 3
+        },
         {
           "ctftime_team_id": 397,
           "place": 81
@@ -22073,6 +22182,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 17
+        },
+        {
           "ctftime_team_id": 14321,
           "place": 31
         },
@@ -22175,6 +22288,10 @@
           "place": 2
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 19
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 30
         },
@@ -22212,6 +22329,10 @@
         {
           "ctftime_team_id": 572,
           "place": 7
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 33
         },
         {
           "ctftime_team_id": 14321,
@@ -22453,6 +22574,10 @@
         {
           "ctftime_team_id": 24511,
           "place": 104
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 113
         }
       ]
     },
@@ -22472,6 +22597,10 @@
         {
           "ctftime_team_id": 14321,
           "place": 28
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
         },
         {
           "ctftime_team_id": 78233,
@@ -22573,6 +22702,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 5
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 10
         },
         {
           "ctftime_team_id": 285,
@@ -22816,6 +22949,10 @@
           "place": 399
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 502
+        },
+        {
           "ctftime_team_id": 25932,
           "place": 554
         },
@@ -22849,6 +22986,10 @@
         {
           "ctftime_team_id": 285,
           "place": 21
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 24
         },
         {
           "ctftime_team_id": 30563,
@@ -22895,6 +23036,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 27
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 52
         },
         {
           "ctftime_team_id": 39346,
@@ -23056,6 +23201,10 @@
           "place": 28
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 29
+        },
+        {
           "ctftime_team_id": 12858,
           "place": 49
         },
@@ -23166,6 +23315,10 @@
           "place": 264
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 270
+        },
+        {
           "ctftime_team_id": 34958,
           "place": 293
         },
@@ -23215,6 +23368,10 @@
         {
           "ctftime_team_id": 572,
           "place": 67
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 73
         },
         {
           "ctftime_team_id": 285,
@@ -23419,6 +23576,10 @@
         {
           "ctftime_team_id": 30563,
           "place": 69
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 77
         }
       ]
     },
@@ -23593,6 +23754,10 @@
         {
           "ctftime_team_id": 112541,
           "place": 86
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 103
         },
         {
           "ctftime_team_id": 24511,
@@ -23873,6 +24038,10 @@
           "place": 12
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 52
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 92
         },
@@ -23903,6 +24072,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
         {
           "ctftime_team_id": 285,
           "place": 23
@@ -24054,6 +24227,10 @@
           "place": 373
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 819
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 922
         },
@@ -24068,6 +24245,21 @@
         {
           "ctftime_team_id": 111877,
           "place": 1319
+        }
+      ]
+    },
+    {
+      "name": "NorthSec 2020",
+      "ctftime_id": 954,
+      "ctftime_weight": 21.88,
+      "start_time": "2020-05-16T12:00:00+00:00",
+      "end_time": "2020-05-17T19:00:00+00:00",
+      "format": "Hack quest",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
         }
       ]
     },
@@ -24147,6 +24339,10 @@
         {
           "ctftime_team_id": 397,
           "place": 688
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 713
         },
         {
           "ctftime_team_id": 112558,
@@ -24239,6 +24435,10 @@
           "place": 164
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 215
+        },
+        {
           "ctftime_team_id": 121331,
           "place": 226
         },
@@ -24304,6 +24504,10 @@
         {
           "ctftime_team_id": 285,
           "place": 37
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 57
         },
         {
           "ctftime_team_id": 572,
@@ -24797,6 +25001,10 @@
           "place": 318
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 438
+        },
+        {
           "ctftime_team_id": 15342,
           "place": 440
         },
@@ -24904,6 +25112,10 @@
         {
           "ctftime_team_id": 114056,
           "place": 20
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 69
         },
         {
           "ctftime_team_id": 112541,
@@ -25047,6 +25259,10 @@
           "place": 399
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 440
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 458
         }
@@ -25061,6 +25277,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
         {
           "ctftime_team_id": 64660,
           "place": 404
@@ -25246,6 +25466,10 @@
         {
           "ctftime_team_id": 108190,
           "place": 36
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 1144
         }
       ]
     },
@@ -25472,6 +25696,10 @@
           "place": 28
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 38
+        },
+        {
           "ctftime_team_id": 114056,
           "place": 44
         },
@@ -25651,6 +25879,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 5
+        },
+        {
           "ctftime_team_id": 285,
           "place": 9
         },
@@ -25805,6 +26037,10 @@
           "place": 196
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 220
+        },
+        {
           "ctftime_team_id": 45787,
           "place": 230
         },
@@ -25891,6 +26127,21 @@
       ]
     },
     {
+      "name": "VolgaCTF 2020 Final",
+      "ctftime_id": 1018,
+      "ctftime_weight": 41.5,
+      "start_time": "2020-09-17T06:00:00+00:00",
+      "end_time": "2020-09-17T15:00:00+00:00",
+      "format": "Attack-Defense",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
+        }
+      ]
+    },
+    {
       "name": "DownUnderCTF 2020",
       "ctftime_id": 1084,
       "ctftime_weight": 24.44,
@@ -25965,6 +26216,10 @@
         {
           "ctftime_team_id": 83621,
           "place": 65
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 150
         },
         {
           "ctftime_team_id": 2500,
@@ -26176,6 +26431,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 9
+        },
+        {
           "ctftime_team_id": 397,
           "place": 67
         }
@@ -26280,6 +26539,10 @@
           "place": 9
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 53
+        },
+        {
           "ctftime_team_id": 285,
           "place": 118
         },
@@ -26369,6 +26632,10 @@
           "place": 47
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 82
+        },
+        {
           "ctftime_team_id": 397,
           "place": 142
         },
@@ -26433,6 +26700,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 52
+        },
         {
           "ctftime_team_id": 11464,
           "place": 58
@@ -26582,6 +26853,10 @@
           "place": 15
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 50
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 232
         },
@@ -26635,6 +26910,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 21
+        },
         {
           "ctftime_team_id": 64660,
           "place": 28
@@ -26753,6 +27032,10 @@
           "place": 35
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 37
+        },
+        {
           "ctftime_team_id": 25905,
           "place": 61
         },
@@ -26820,6 +27103,10 @@
           "place": 291
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 302
+        },
+        {
           "ctftime_team_id": 315,
           "place": 309
         },
@@ -26845,6 +27132,10 @@
         {
           "ctftime_team_id": 572,
           "place": 35
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 40
         }
       ]
     },
@@ -26959,6 +27250,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
+        {
           "ctftime_team_id": 572,
           "place": 23
         },
@@ -27027,6 +27322,10 @@
         {
           "ctftime_team_id": 285,
           "place": 42
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 116
         },
         {
           "ctftime_team_id": 11464,
@@ -27128,6 +27427,10 @@
         {
           "ctftime_team_id": 397,
           "place": 50
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 70
         },
         {
           "ctftime_team_id": 25905,
@@ -27303,6 +27606,10 @@
           "place": 275
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 362
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 379
         },
@@ -27317,6 +27624,21 @@
         {
           "ctftime_team_id": 25905,
           "place": 498
+        }
+      ]
+    },
+    {
+      "name": "Trend Micro CTF 2020 - Raimund Genes Cup - Virtual Finals",
+      "ctftime_id": 1212,
+      "ctftime_weight": 45.0,
+      "start_time": "2020-12-19T05:00:00+00:00",
+      "end_time": "2020-12-20T05:00:36+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 5
         }
       ]
     },
@@ -27484,6 +27806,10 @@
           "place": 80
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 89
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 108
         },
@@ -27578,6 +27904,10 @@
           "place": 174
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 181
+        },
+        {
           "ctftime_team_id": 284,
           "place": 182
         },
@@ -27651,6 +27981,10 @@
         {
           "ctftime_team_id": 439,
           "place": 153
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 154
         },
         {
           "ctftime_team_id": 11464,
@@ -27913,6 +28247,10 @@
           "place": 24
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 103
+        },
+        {
           "ctftime_team_id": 25905,
           "place": 115
         },
@@ -28008,6 +28346,10 @@
         {
           "ctftime_team_id": 144581,
           "place": 7
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 16
         },
         {
           "ctftime_team_id": 114056,
@@ -28157,6 +28499,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 13
+        },
+        {
           "ctftime_team_id": 30563,
           "place": 56
         },
@@ -28231,6 +28577,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 36
+        },
+        {
           "ctftime_team_id": 30563,
           "place": 111
         },
@@ -28256,6 +28606,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 79
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 113
         },
         {
           "ctftime_team_id": 30563,
@@ -28341,6 +28695,10 @@
           "place": 4
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 8
         },
@@ -28418,6 +28776,10 @@
           "place": 56
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 122
+        },
+        {
           "ctftime_team_id": 284,
           "place": 186
         },
@@ -28451,6 +28813,10 @@
         {
           "ctftime_team_id": 285,
           "place": 33
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 48
         },
         {
           "ctftime_team_id": 439,
@@ -28532,6 +28898,10 @@
         {
           "ctftime_team_id": 439,
           "place": 108
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 150
         },
         {
           "ctftime_team_id": 30563,
@@ -28630,6 +29000,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
         {
           "ctftime_team_id": 2500,
           "place": 36
@@ -28787,6 +29161,10 @@
           "place": 55
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 64
+        },
+        {
           "ctftime_team_id": 110145,
           "place": 92
         },
@@ -28812,6 +29190,10 @@
         {
           "ctftime_team_id": 285,
           "place": 10
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 22
         },
         {
           "ctftime_team_id": 572,
@@ -28897,6 +29279,10 @@
           "place": 65
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 116
+        },
+        {
           "ctftime_team_id": 572,
           "place": 124
         },
@@ -28974,6 +29360,10 @@
           "place": 58
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 107
+        },
+        {
           "ctftime_team_id": 397,
           "place": 118
         },
@@ -29034,6 +29424,21 @@
       ]
     },
     {
+      "name": "OMH 2021 CTF",
+      "ctftime_id": 1363,
+      "ctftime_weight": 34.65,
+      "start_time": "2021-05-15T11:00:00+00:00",
+      "end_time": "2021-05-16T11:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
+        }
+      ]
+    },
+    {
       "name": "NorzhCTF 2021",
       "ctftime_id": 1301,
       "ctftime_weight": 24.83,
@@ -29076,6 +29481,10 @@
         {
           "ctftime_team_id": 285,
           "place": 47
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 52
         },
         {
           "ctftime_team_id": 25905,
@@ -29151,6 +29560,10 @@
           "place": 28
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 33
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 101
         },
@@ -29204,6 +29617,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 65
+        },
         {
           "ctftime_team_id": 64660,
           "place": 118
@@ -29333,6 +29750,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
+        {
           "ctftime_team_id": 25932,
           "place": 19
         },
@@ -29354,6 +29775,10 @@
         {
           "ctftime_team_id": 53812,
           "place": 5
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 27
         },
         {
           "ctftime_team_id": 11464,
@@ -29419,6 +29844,10 @@
           "place": 21
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 37
+        },
+        {
           "ctftime_team_id": 114056,
           "place": 47
         },
@@ -29464,6 +29893,10 @@
         {
           "ctftime_team_id": 64660,
           "place": 81
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 82
         }
       ]
     },
@@ -29525,6 +29958,10 @@
           "place": 273
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 337
+        },
+        {
           "ctftime_team_id": 89667,
           "place": 550
         },
@@ -29567,6 +30004,10 @@
           "place": 16
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 319
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 413
         }
@@ -29588,6 +30029,10 @@
         {
           "ctftime_team_id": 91197,
           "place": 14
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 30
         },
         {
           "ctftime_team_id": 285,
@@ -29730,6 +30175,10 @@
           "place": 34
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 45
+        },
+        {
           "ctftime_team_id": 572,
           "place": 110
         },
@@ -29744,6 +30193,21 @@
         {
           "ctftime_team_id": 81423,
           "place": 365
+        }
+      ]
+    },
+    {
+      "name": "CyberSci Nationals 2021",
+      "ctftime_id": 1394,
+      "ctftime_weight": 0,
+      "start_time": "2021-07-17T12:00:00+00:00",
+      "end_time": "2021-07-18T16:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Academic",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 4
         }
       ]
     },
@@ -29787,6 +30251,21 @@
       ]
     },
     {
+      "name": "CyBRICS CTF 2021",
+      "ctftime_id": 1306,
+      "ctftime_weight": 33.32,
+      "start_time": "2021-07-24T10:00:00+00:00",
+      "end_time": "2021-07-25T10:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 101
+        }
+      ]
+    },
+    {
       "name": "Crypto CTF 2021",
       "ctftime_id": 1258,
       "ctftime_weight": 36.0,
@@ -29795,6 +30274,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 58
+        },
         {
           "ctftime_team_id": 572,
           "place": 86
@@ -29829,6 +30312,10 @@
         {
           "ctftime_team_id": 81423,
           "place": 53
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 87
         },
         {
           "ctftime_team_id": 144581,
@@ -29877,6 +30364,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 44
+        },
         {
           "ctftime_team_id": 27763,
           "place": 47
@@ -29951,6 +30442,10 @@
           "place": 59
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 422
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 481
         }
@@ -29992,6 +30487,21 @@
       ]
     },
     {
+      "name": "Hacker's Playground 2021",
+      "ctftime_id": 1396,
+      "ctftime_weight": 24.5,
+      "start_time": "2021-08-16T06:00:00+00:00",
+      "end_time": "2021-08-17T06:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 702
+        }
+      ]
+    },
+    {
       "name": "corCTF 2021",
       "ctftime_id": 1364,
       "ctftime_weight": 24.92,
@@ -30003,6 +30513,10 @@
         {
           "ctftime_team_id": 2500,
           "place": 15
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 35
         },
         {
           "ctftime_team_id": 83621,
@@ -30075,6 +30589,10 @@
           "place": 78
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 104
+        },
+        {
           "ctftime_team_id": 12858,
           "place": 305
         },
@@ -30123,6 +30641,10 @@
         {
           "ctftime_team_id": 87711,
           "place": 87
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 96
         },
         {
           "ctftime_team_id": 154567,
@@ -30232,6 +30754,10 @@
         {
           "ctftime_team_id": 38564,
           "place": 37
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 39
         },
         {
           "ctftime_team_id": 152691,
@@ -30403,6 +30929,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 8
+        },
+        {
           "ctftime_team_id": 152691,
           "place": 75
         }
@@ -30472,6 +31002,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 20
+        },
         {
           "ctftime_team_id": 2500,
           "place": 128
@@ -30581,6 +31115,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 14
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 139
         },
@@ -30620,6 +31158,10 @@
           "place": 15
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 102
+        },
+        {
           "ctftime_team_id": 3135,
           "place": 113
         }
@@ -30649,6 +31191,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 14
+        },
         {
           "ctftime_team_id": 284,
           "place": 37
@@ -30753,6 +31299,10 @@
         {
           "ctftime_team_id": 285,
           "place": 13
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
         },
         {
           "ctftime_team_id": 284,
@@ -30890,6 +31440,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 7
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 24
         },
         {
           "ctftime_team_id": 64660,
@@ -31058,6 +31612,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 19
         },
@@ -31111,6 +31669,10 @@
         {
           "ctftime_team_id": 24526,
           "place": 22
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 25
         },
         {
           "ctftime_team_id": 87711,
@@ -31251,6 +31813,10 @@
         {
           "ctftime_team_id": 83621,
           "place": 31
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 75
         },
         {
           "ctftime_team_id": 284,
@@ -31401,6 +31967,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 2500,
           "place": 28
@@ -31585,6 +32155,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 29
+        },
+        {
           "ctftime_team_id": 285,
           "place": 30
         },
@@ -31704,6 +32278,10 @@
           "place": 41
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 51
+        },
+        {
           "ctftime_team_id": 397,
           "place": 97
         },
@@ -31752,6 +32330,10 @@
         {
           "ctftime_team_id": 2500,
           "place": 60
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 72
         }
       ]
     },
@@ -31795,6 +32377,21 @@
       ]
     },
     {
+      "name": "Trend Micro CTF 2021 - Raimund Genes Cup - Virtual Final",
+      "ctftime_id": 1530,
+      "ctftime_weight": 25.0,
+      "start_time": "2021-12-18T05:00:00+00:00",
+      "end_time": "2021-12-19T05:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 8
+        }
+      ]
+    },
+    {
       "name": "ASIS CTF Finals 2021",
       "ctftime_id": 1416,
       "ctftime_weight": 65.47,
@@ -31803,6 +32400,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
         {
           "ctftime_team_id": 114603,
           "place": 137
@@ -31974,6 +32575,10 @@
           "place": 79
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 136
+        },
+        {
           "ctftime_team_id": 65296,
           "place": 180
         },
@@ -32023,6 +32628,10 @@
         {
           "ctftime_team_id": 144581,
           "place": 46
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 79
         },
         {
           "ctftime_team_id": 2500,
@@ -32124,6 +32733,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 31
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 88
         },
@@ -32159,6 +32772,10 @@
           "place": 1
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
+        {
           "ctftime_team_id": 154567,
           "place": 20
         },
@@ -32189,6 +32806,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 439,
           "place": 31
@@ -32298,6 +32919,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
+        {
           "ctftime_team_id": 285,
           "place": 31
         }
@@ -32346,6 +32971,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
         {
           "ctftime_team_id": 155711,
           "place": 13
@@ -32401,6 +33030,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 24
+        },
         {
           "ctftime_team_id": 25932,
           "place": 74
@@ -32475,6 +33108,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 2
+        },
+        {
           "ctftime_team_id": 439,
           "place": 31
         },
@@ -32516,6 +33153,10 @@
         {
           "ctftime_team_id": 285,
           "place": 8
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 47
         },
         {
           "ctftime_team_id": 397,
@@ -32642,6 +33283,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 25
+        },
+        {
           "ctftime_team_id": 81423,
           "place": 253
         }
@@ -32659,6 +33304,10 @@
         {
           "ctftime_team_id": 572,
           "place": 12
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 17
         },
         {
           "ctftime_team_id": 112558,
@@ -32754,6 +33403,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 51
+        },
+        {
           "ctftime_team_id": 439,
           "place": 102
         },
@@ -32821,6 +33474,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 27
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 34
         },
         {
           "ctftime_team_id": 12858,
@@ -32915,6 +33572,21 @@
       ]
     },
     {
+      "name": "Securinets CTF Quals 2022 ",
+      "ctftime_id": 1617,
+      "ctftime_weight": 50.11,
+      "start_time": "2022-04-09T18:00:00+00:00",
+      "end_time": "2022-04-10T18:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 31
+        }
+      ]
+    },
+    {
       "name": "DCTF 2022",
       "ctftime_id": 1569,
       "ctftime_weight": 24.19,
@@ -33002,6 +33674,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 5
         },
@@ -33084,6 +33760,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 4
         },
@@ -33145,6 +33825,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 5
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
         },
         {
           "ctftime_team_id": 155711,
@@ -33287,6 +33971,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 13
+        },
+        {
           "ctftime_team_id": 91197,
           "place": 57
         },
@@ -33389,6 +34077,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 3
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 8
         },
@@ -33451,6 +34143,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 14
+        },
         {
           "ctftime_team_id": 64660,
           "place": 33
@@ -33525,6 +34221,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 9
+        },
         {
           "ctftime_team_id": 2500,
           "place": 27
@@ -33686,6 +34386,10 @@
           "place": 48
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 59
+        },
+        {
           "ctftime_team_id": 81423,
           "place": 116
         },
@@ -33787,6 +34491,10 @@
           "place": 35
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 56
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 76
         },
@@ -33879,6 +34587,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 4
+        },
         {
           "ctftime_team_id": 2500,
           "place": 9
@@ -34038,6 +34750,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 28
+        },
+        {
           "ctftime_team_id": 87711,
           "place": 68
         },
@@ -34060,6 +34776,21 @@
       ]
     },
     {
+      "name": "WeCTF 2022",
+      "ctftime_id": 1546,
+      "ctftime_weight": 36.12,
+      "start_time": "2022-06-11T18:00:00+00:00",
+      "end_time": "2022-06-12T18:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 5
+        }
+      ]
+    },
+    {
       "name": "TyphoonCon CTF 2022",
       "ctftime_id": 1672,
       "ctftime_weight": 21.5,
@@ -34069,12 +34800,31 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
+        {
           "ctftime_team_id": 24704,
           "place": 39
         },
         {
           "ctftime_team_id": 83621,
           "place": 150
+        }
+      ]
+    },
+    {
+      "name": "Azure Assassin Alliance CTF 2022",
+      "ctftime_id": 1682,
+      "ctftime_weight": 23.8,
+      "start_time": "2022-06-25T01:00:00+00:00",
+      "end_time": "2022-06-27T01:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 23
         }
       ]
     },
@@ -34106,6 +34856,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 3
+        },
         {
           "ctftime_team_id": 285,
           "place": 61
@@ -34161,6 +34915,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 13
+        },
+        {
           "ctftime_team_id": 12858,
           "place": 19
         },
@@ -34192,6 +34950,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
+        {
           "ctftime_team_id": 24704,
           "place": 28
         },
@@ -34222,6 +34984,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 59
+        },
         {
           "ctftime_team_id": 64660,
           "place": 340
@@ -34291,6 +35057,10 @@
         {
           "ctftime_team_id": 285,
           "place": 12
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 22
         },
         {
           "ctftime_team_id": 183235,
@@ -34385,8 +35155,16 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 3
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 25
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 56
         },
         {
           "ctftime_team_id": 2500,
@@ -34521,6 +35299,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 27
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 56
         },
@@ -34590,6 +35372,10 @@
       "format": "Attack-Defense",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
         {
           "ctftime_team_id": 285,
           "place": 13
@@ -34766,6 +35552,10 @@
           "place": 22
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 71
+        },
+        {
           "ctftime_team_id": 285,
           "place": 72
         },
@@ -34796,6 +35586,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 44
+        },
         {
           "ctftime_team_id": 155711,
           "place": 271
@@ -34846,6 +35640,10 @@
         {
           "ctftime_team_id": 87711,
           "place": 27
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
         },
         {
           "ctftime_team_id": 152691,
@@ -34962,6 +35760,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 25
+        },
+        {
           "ctftime_team_id": 284,
           "place": 29
         },
@@ -35034,6 +35836,10 @@
         {
           "ctftime_team_id": 83621,
           "place": 20
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 28
         },
         {
           "ctftime_team_id": 11464,
@@ -35156,6 +35962,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 53
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 54
         }
       ]
     },
@@ -35168,6 +35978,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 8
+        },
         {
           "ctftime_team_id": 201730,
           "place": 17
@@ -35286,6 +36100,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 46
         },
@@ -35349,6 +36167,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 22
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 27
         },
         {
           "ctftime_team_id": 285,
@@ -35499,6 +36321,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 285,
           "place": 7
         },
@@ -35594,6 +36420,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
         {
           "ctftime_team_id": 284,
           "place": 45
@@ -35763,6 +36593,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 11
+        },
+        {
           "ctftime_team_id": 397,
           "place": 112
         }
@@ -35780,6 +36614,21 @@
         {
           "ctftime_team_id": 111469,
           "place": 54
+        }
+      ]
+    },
+    {
+      "name": "CyberSci Regional Qualifiers 2022-23",
+      "ctftime_id": 1805,
+      "ctftime_weight": 0.0,
+      "start_time": "2022-11-05T15:20:00+00:00",
+      "end_time": "2022-11-05T19:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 1
         }
       ]
     },
@@ -35815,6 +36664,10 @@
         {
           "ctftime_team_id": 24526,
           "place": 20
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
         },
         {
           "ctftime_team_id": 152691,
@@ -35878,6 +36731,10 @@
           "place": 28
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 82
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 162
         },
@@ -35934,6 +36791,10 @@
         {
           "ctftime_team_id": 27763,
           "place": 5
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
         },
         {
           "ctftime_team_id": 11464,
@@ -36093,6 +36954,10 @@
           "place": 89
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 97
+        },
+        {
           "ctftime_team_id": 30012,
           "place": 142
         },
@@ -36132,6 +36997,10 @@
           "place": 70
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 73
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 84
         },
@@ -36165,6 +37034,10 @@
         {
           "ctftime_team_id": 53799,
           "place": 49
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 77
         },
         {
           "ctftime_team_id": 3135,
@@ -36500,6 +37373,10 @@
         {
           "ctftime_team_id": 284,
           "place": 301
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 305
         }
       ]
     },
@@ -36515,6 +37392,10 @@
         {
           "ctftime_team_id": 186494,
           "place": 30
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 52
         },
         {
           "ctftime_team_id": 155711,
@@ -36565,6 +37446,10 @@
         {
           "ctftime_team_id": 12858,
           "place": 21
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 41
         },
         {
           "ctftime_team_id": 201730,
@@ -36671,6 +37556,10 @@
         {
           "ctftime_team_id": 144581,
           "place": 100
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 169
         },
         {
           "ctftime_team_id": 439,
@@ -36806,6 +37695,10 @@
           "place": 32
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 38
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 43
         },
@@ -36910,6 +37803,10 @@
         {
           "ctftime_team_id": 87711,
           "place": 5
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
         },
         {
           "ctftime_team_id": 27763,
@@ -37120,6 +38017,10 @@
           "place": 34
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 47
+        },
+        {
           "ctftime_team_id": 83621,
           "place": 48
         },
@@ -37192,6 +38093,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
         {
           "ctftime_team_id": 397,
           "place": 39
@@ -37280,6 +38185,10 @@
         {
           "ctftime_team_id": 285,
           "place": 34
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 41
         },
         {
           "ctftime_team_id": 64660,
@@ -37378,6 +38287,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 5
+        },
+        {
           "ctftime_team_id": 34453,
           "place": 10
         },
@@ -37435,6 +38348,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
         {
           "ctftime_team_id": 284,
           "place": 22
@@ -37589,6 +38506,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 13
+        },
+        {
           "ctftime_team_id": 284,
           "place": 61
         },
@@ -37692,6 +38613,10 @@
         {
           "ctftime_team_id": 144581,
           "place": 17
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 21
         },
         {
           "ctftime_team_id": 2500,
@@ -37887,6 +38812,10 @@
           "place": 305
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 430
+        },
+        {
           "ctftime_team_id": 24526,
           "place": 465
         }
@@ -37908,6 +38837,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 30
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 64
         },
         {
           "ctftime_team_id": 446,
@@ -37950,6 +38883,10 @@
         {
           "ctftime_team_id": 83621,
           "place": 41
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 43
         },
         {
           "ctftime_team_id": 285,
@@ -38321,6 +39258,10 @@
           "place": 120
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 132
+        },
+        {
           "ctftime_team_id": 284,
           "place": 137
         },
@@ -38464,6 +39405,10 @@
           "place": 9
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
+        {
           "ctftime_team_id": 201730,
           "place": 36
         },
@@ -38518,6 +39463,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 5
+        },
         {
           "ctftime_team_id": 30012,
           "place": 28
@@ -38856,6 +39805,10 @@
           "place": 17
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 22
+        },
+        {
           "ctftime_team_id": 12858,
           "place": 29
         },
@@ -38924,6 +39877,21 @@
       ]
     },
     {
+      "name": "CyberSci Nationals 2023",
+      "ctftime_id": 1995,
+      "ctftime_weight": 0.0,
+      "start_time": "2023-06-02T12:00:00+00:00",
+      "end_time": "2023-06-03T22:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 4
+        }
+      ]
+    },
+    {
       "name": "Break the Syntax CTF 2023",
       "ctftime_id": 1940,
       "ctftime_weight": 32.0,
@@ -38947,6 +39915,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 25
+        },
         {
           "ctftime_team_id": 78374,
           "place": 153
@@ -39142,6 +40114,10 @@
         {
           "ctftime_team_id": 284,
           "place": 4
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
         }
       ]
     },
@@ -39169,6 +40145,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
         {
           "ctftime_team_id": 166729,
           "place": 48
@@ -39244,6 +40224,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 24
         },
@@ -39315,6 +40299,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 75
+        },
+        {
           "ctftime_team_id": 171802,
           "place": 132
         },
@@ -39353,6 +40341,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 118
+        },
         {
           "ctftime_team_id": 2500,
           "place": 133
@@ -39536,6 +40528,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
+        {
           "ctftime_team_id": 285,
           "place": 36
         }
@@ -39705,6 +40701,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 285,
           "place": 11
         }
@@ -39767,6 +40767,10 @@
         {
           "ctftime_team_id": 285,
           "place": 4
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 22
         },
         {
           "ctftime_team_id": 439,
@@ -39838,6 +40842,10 @@
           "place": 97
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 116
+        },
+        {
           "ctftime_team_id": 15360,
           "place": 154
         },
@@ -39895,6 +40903,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 34
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 40
         },
         {
           "ctftime_team_id": 155711,
@@ -40187,6 +41199,10 @@
           "place": 46
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 51
+        },
+        {
           "ctftime_team_id": 2511,
           "place": 56
         },
@@ -40298,6 +41314,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 24704,
           "place": 167
         },
@@ -40335,6 +41355,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 284,
           "place": 29
@@ -40575,6 +41599,10 @@
           "place": 28
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 35
+        },
+        {
           "ctftime_team_id": 202828,
           "place": 161
         },
@@ -40694,6 +41722,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
         {
           "ctftime_team_id": 284,
           "place": 48
@@ -40820,6 +41852,10 @@
           "place": 115
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 137
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 147
         },
@@ -40857,6 +41893,10 @@
         {
           "ctftime_team_id": 284,
           "place": 42
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 54
         },
         {
           "ctftime_team_id": 2524,
@@ -41019,6 +42059,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 35
+        },
         {
           "ctftime_team_id": 83621,
           "place": 46
@@ -41253,6 +42297,10 @@
           "place": 30
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 45
+        },
+        {
           "ctftime_team_id": 397,
           "place": 48
         },
@@ -41299,6 +42347,21 @@
       ]
     },
     {
+      "name": "CyberSci Regional Qualifiers 2023-24",
+      "ctftime_id": 2171,
+      "ctftime_weight": 0.0,
+      "start_time": "2023-11-18T16:00:00+00:00",
+      "end_time": "2023-11-18T23:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 4
+        }
+      ]
+    },
+    {
       "name": " GlacierCTF 2023",
       "ctftime_id": 1992,
       "ctftime_weight": 24.32,
@@ -41307,6 +42370,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 31
+        },
         {
           "ctftime_team_id": 186494,
           "place": 39
@@ -41365,6 +42432,10 @@
         {
           "ctftime_team_id": 154567,
           "place": 9
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 14
         },
         {
           "ctftime_team_id": 64660,
@@ -41502,6 +42573,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 3
+        },
+        {
           "ctftime_team_id": 285,
           "place": 22
         },
@@ -41638,6 +42713,21 @@
       ]
     },
     {
+      "name": "SECCON CTF 2023 International Finals",
+      "ctftime_id": 2159,
+      "ctftime_weight": 25.0,
+      "start_time": "2023-12-23T01:00:00+00:00",
+      "end_time": "2023-12-24T09:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 1
+        }
+      ]
+    },
+    {
       "name": "37C3 Potluck CTF",
       "ctftime_id": 2199,
       "ctftime_weight": 25.0,
@@ -41766,6 +42856,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 23
+        },
         {
           "ctftime_team_id": 12858,
           "place": 45
@@ -41986,6 +43080,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
+        {
           "ctftime_team_id": 284,
           "place": 14
         },
@@ -42112,6 +43210,10 @@
           "place": 105
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 110
+        },
+        {
           "ctftime_team_id": 2524,
           "place": 218
         },
@@ -42206,6 +43308,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 23
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
         },
         {
           "ctftime_team_id": 12858,
@@ -42422,6 +43528,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
         {
           "ctftime_team_id": 11464,
           "place": 16
@@ -42657,6 +43767,10 @@
           "place": 60
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 75
+        },
+        {
           "ctftime_team_id": 201730,
           "place": 174
         },
@@ -42715,6 +43829,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 284,
           "place": 38
@@ -42851,6 +43969,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 32
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 36
         },
@@ -42962,6 +44084,10 @@
         {
           "ctftime_team_id": 2524,
           "place": 60
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 91
         },
         {
           "ctftime_team_id": 286960,
@@ -43247,6 +44373,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 25
+        },
         {
           "ctftime_team_id": 2524,
           "place": 39
@@ -43642,6 +44772,10 @@
           "place": 20
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 21
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 22
         },
@@ -43711,6 +44845,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
         {
           "ctftime_team_id": 285,
           "place": 12
@@ -43797,6 +44935,10 @@
           "place": 2
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 5
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 23
         }
@@ -43839,6 +44981,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 3
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 5
         },
@@ -43873,6 +45019,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 10
+        },
         {
           "ctftime_team_id": 64660,
           "place": 12
@@ -43929,6 +45079,10 @@
           "place": 9
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 56
         },
@@ -43977,6 +45131,10 @@
         {
           "ctftime_team_id": 64660,
           "place": 61
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 62
         },
         {
           "ctftime_team_id": 2500,
@@ -44068,6 +45226,10 @@
           "place": 4
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 62
         },
@@ -44156,6 +45318,10 @@
         {
           "ctftime_team_id": 284,
           "place": 7
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 52
         }
       ]
     },
@@ -44274,6 +45440,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
+        {
           "ctftime_team_id": 284,
           "place": 103
         }
@@ -44288,6 +45458,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
         {
           "ctftime_team_id": 284,
           "place": 71
@@ -44359,12 +45533,31 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 52
+        },
+        {
           "ctftime_team_id": 78233,
           "place": 72
         },
         {
           "ctftime_team_id": 439,
           "place": 377
+        }
+      ]
+    },
+    {
+      "name": "CyberSci Nationals 2024",
+      "ctftime_id": 2366,
+      "ctftime_weight": 25.0,
+      "start_time": "2024-06-21T12:00:00+00:00",
+      "end_time": "2024-06-22T22:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 3
         }
       ]
     },
@@ -44396,6 +45589,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 7
+        },
         {
           "ctftime_team_id": 285,
           "place": 48
@@ -44449,6 +45646,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 22
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 30
         },
         {
           "ctftime_team_id": 186494,
@@ -44512,6 +45713,25 @@
         {
           "ctftime_team_id": 166729,
           "place": 8
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
+        }
+      ]
+    },
+    {
+      "name": "Junior.Crypt.2024 CTF",
+      "ctftime_id": 2259,
+      "ctftime_weight": 23.13,
+      "start_time": "2024-07-03T15:00:00+00:00",
+      "end_time": "2024-07-05T15:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 28
         }
       ]
     },
@@ -44524,6 +45744,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
         {
           "ctftime_team_id": 27763,
           "place": 36
@@ -44588,6 +45812,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 10
+        },
+        {
           "ctftime_team_id": 306490,
           "place": 345
         },
@@ -44619,6 +45847,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 123
+        },
+        {
           "ctftime_team_id": 112673,
           "place": 164
         },
@@ -44648,6 +45880,10 @@
         {
           "ctftime_team_id": 171802,
           "place": 128
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 165
         },
         {
           "ctftime_team_id": 78233,
@@ -44701,6 +45937,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 42
+        },
+        {
           "ctftime_team_id": 166729,
           "place": 67
         }
@@ -44751,6 +45991,10 @@
           "place": 6
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 9
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 14
         },
@@ -44781,6 +46025,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
         {
           "ctftime_team_id": 83621,
           "place": 97
@@ -44862,6 +46110,21 @@
       ]
     },
     {
+      "name": "DEF CON CTF 2024",
+      "ctftime_id": 2462,
+      "ctftime_weight": 35.0,
+      "start_time": "2024-08-09T16:00:00+00:00",
+      "end_time": "2024-08-11T20:00:00+00:00",
+      "format": "Attack-Defense",
+      "restrictions": "Prequalified",
+      "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 1
+        }
+      ]
+    },
+    {
       "name": "Lexington Informatics Tournament CTF 2024",
       "ctftime_id": 2444,
       "ctftime_weight": 46.25,
@@ -44902,6 +46165,10 @@
           "place": 11
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 14
+        },
+        {
           "ctftime_team_id": 186494,
           "place": 149
         },
@@ -44932,6 +46199,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 12
+        },
         {
           "ctftime_team_id": 11464,
           "place": 16
@@ -44979,6 +46250,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
         {
           "ctftime_team_id": 11464,
           "place": 8
@@ -45082,6 +46357,10 @@
           "place": 29
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 33
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 37
         },
@@ -45176,6 +46455,21 @@
       ]
     },
     {
+      "name": "WMCTF2024",
+      "ctftime_id": 2457,
+      "ctftime_weight": 53.88,
+      "start_time": "2024-09-07T01:00:00+00:00",
+      "end_time": "2024-09-09T01:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 28
+        }
+      ]
+    },
+    {
       "name": "snakeCTF 2024 Quals",
       "ctftime_id": 2418,
       "ctftime_weight": 24.79,
@@ -45215,6 +46509,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 4
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 157
         }
@@ -45229,6 +46527,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 19
+        },
         {
           "ctftime_team_id": 186494,
           "place": 28
@@ -45402,6 +46704,10 @@
           "place": 120
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 123
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 126
         },
@@ -45468,6 +46774,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 8
+        },
         {
           "ctftime_team_id": 285,
           "place": 23
@@ -45537,6 +46847,10 @@
         {
           "ctftime_team_id": 333,
           "place": 21
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 22
         },
         {
           "ctftime_team_id": 110145,
@@ -45614,6 +46928,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 27
+        },
+        {
           "ctftime_team_id": 25932,
           "place": 52
         },
@@ -45678,6 +46996,10 @@
         {
           "ctftime_team_id": 27763,
           "place": 52
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 55
         }
       ]
     },
@@ -45733,6 +47055,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
         {
           "ctftime_team_id": 284,
           "place": 45
@@ -45837,6 +47163,10 @@
         {
           "ctftime_team_id": 285,
           "place": 11
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 19
         },
         {
           "ctftime_team_id": 11464,
@@ -46030,6 +47360,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 29
+        },
+        {
           "ctftime_team_id": 333,
           "place": 46
         },
@@ -46048,6 +47382,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
         {
           "ctftime_team_id": 285,
           "place": 3
@@ -46193,6 +47531,10 @@
           "place": 64
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 90
+        },
+        {
           "ctftime_team_id": 25905,
           "place": 94
         },
@@ -46270,6 +47612,10 @@
           "place": 5
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
+        {
           "ctftime_team_id": 64660,
           "place": 29
         },
@@ -46300,6 +47646,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
         {
           "ctftime_team_id": 11464,
           "place": 21
@@ -46410,6 +47760,10 @@
           "place": 38
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 61
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 65
         },
@@ -46461,6 +47815,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 8
+        },
+        {
           "ctftime_team_id": 333,
           "place": 49
         },
@@ -46479,6 +47837,21 @@
         {
           "ctftime_team_id": 114603,
           "place": 611
+        }
+      ]
+    },
+    {
+      "name": "CyberSci Regional Qualifiers 2024-25",
+      "ctftime_id": 2511,
+      "ctftime_weight": 0.0,
+      "start_time": "2024-11-23T16:00:00+00:00",
+      "end_time": "2024-11-23T23:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 3
         }
       ]
     },
@@ -46506,6 +47879,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 70
+        },
         {
           "ctftime_team_id": 112673,
           "place": 149
@@ -46566,6 +47943,10 @@
         {
           "ctftime_team_id": 285,
           "place": 40
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 43
         },
         {
           "ctftime_team_id": 11464,
@@ -46675,6 +48056,21 @@
       ]
     },
     {
+      "name": "TSG CTF 2024",
+      "ctftime_id": 2424,
+      "ctftime_weight": 25.0,
+      "start_time": "2024-12-14T07:00:00+00:00",
+      "end_time": "2024-12-15T07:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 53
+        }
+      ]
+    },
+    {
       "name": "0CTF 2024",
       "ctftime_id": 2448,
       "ctftime_weight": 100.0,
@@ -46683,6 +48079,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 8
+        },
         {
           "ctftime_team_id": 284,
           "place": 43
@@ -46740,6 +48140,21 @@
       ]
     },
     {
+      "name": "ASIS CTF Finals 2024",
+      "ctftime_id": 2403,
+      "ctftime_weight": 92.75,
+      "start_time": "2024-12-28T14:00:00+00:00",
+      "end_time": "2024-12-29T14:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 5
+        }
+      ]
+    },
+    {
       "name": "IrisCTF 2025",
       "ctftime_id": 2503,
       "ctftime_weight": 34.3,
@@ -46748,6 +48163,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
         {
           "ctftime_team_id": 27763,
           "place": 39
@@ -46791,6 +48210,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
         {
           "ctftime_team_id": 186494,
           "place": 34
@@ -46861,6 +48284,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 10
+        },
         {
           "ctftime_team_id": 186494,
           "place": 16
@@ -46970,6 +48397,10 @@
         {
           "ctftime_team_id": 285,
           "place": 16
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 17
         },
         {
           "ctftime_team_id": 3602,
@@ -47107,6 +48538,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 29
         },
@@ -47226,6 +48661,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 9
+        },
         {
           "ctftime_team_id": 11464,
           "place": 10
@@ -47616,6 +49055,10 @@
           "place": 45
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 71
+        },
+        {
           "ctftime_team_id": 34453,
           "place": 72
         },
@@ -47666,6 +49109,21 @@
         {
           "ctftime_team_id": 75919,
           "place": 877
+        }
+      ]
+    },
+    {
+      "name": "SECCON CTF 13 International Finals",
+      "ctftime_id": 2649,
+      "ctftime_weight": 25.0,
+      "start_time": "2025-03-01T01:00:00+00:00",
+      "end_time": "2025-03-02T11:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 6
         }
       ]
     },
@@ -47736,6 +49194,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 7
+        },
         {
           "ctftime_team_id": 25905,
           "place": 72
@@ -47829,6 +49291,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 32
         },
@@ -47910,6 +49376,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 1
+        },
         {
           "ctftime_team_id": 439,
           "place": 120
@@ -48039,6 +49509,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 4
+        },
+        {
           "ctftime_team_id": 155711,
           "place": 10
         },
@@ -48163,6 +49637,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
         {
           "ctftime_team_id": 11464,
           "place": 23
@@ -48559,6 +50037,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 285,
           "place": 5
         },
@@ -48756,6 +50238,10 @@
           "place": 1
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 6
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 8
         },
@@ -48864,6 +50350,10 @@
         {
           "ctftime_team_id": 333,
           "place": 74
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 83
         },
         {
           "ctftime_team_id": 397,
@@ -49079,6 +50569,10 @@
           "place": 21
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 31
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 51
         },
@@ -49192,6 +50686,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 16
+        },
+        {
           "ctftime_team_id": 285,
           "place": 76
         },
@@ -49259,6 +50757,10 @@
           "place": 165
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 260
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 268
         },
@@ -49293,6 +50795,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
         {
           "ctftime_team_id": 11464,
           "place": 128
@@ -49425,6 +50931,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 33
+        },
+        {
           "ctftime_team_id": 285,
           "place": 70
         },
@@ -49490,6 +51000,21 @@
         {
           "ctftime_team_id": 389051,
           "place": 802
+        }
+      ]
+    },
+    {
+      "name": "CyberSci Nationals 2025",
+      "ctftime_id": 2689,
+      "ctftime_weight": 0,
+      "start_time": "2025-06-14T13:00:00+00:00",
+      "end_time": "2025-06-15T23:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Academic",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 3
         }
       ]
     },
@@ -49561,6 +51086,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 18
+        },
+        {
           "ctftime_team_id": 384247,
           "place": 26
         },
@@ -49609,6 +51138,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 193591,
+          "place": 7
+        },
         {
           "ctftime_team_id": 384247,
           "place": 75
@@ -49687,6 +51220,10 @@
           "place": 26
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 43
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 80
         },
@@ -49744,6 +51281,10 @@
           "place": 14
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 43
+        },
+        {
           "ctftime_team_id": 2500,
           "place": 113
         },
@@ -49782,6 +51323,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 155711,
           "place": 30
@@ -49864,6 +51409,10 @@
         {
           "ctftime_team_id": 373261,
           "place": 1619
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 1630
         }
       ]
     },
@@ -49876,6 +51425,10 @@
       "format": "Attack-Defense",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 26
+        },
         {
           "ctftime_team_id": 285,
           "place": 97
@@ -49963,6 +51516,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 15
+        },
         {
           "ctftime_team_id": 11464,
           "place": 19
@@ -50061,6 +51618,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 56
+        },
+        {
           "ctftime_team_id": 114056,
           "place": 100
         },
@@ -50115,6 +51676,10 @@
       "restrictions": "Prequalified",
       "rankings": [
         {
+          "ctftime_team_id": 193591,
+          "place": 1
+        },
+        {
           "ctftime_team_id": 285,
           "place": 11
         }
@@ -50152,6 +51717,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 111
+        },
         {
           "ctftime_team_id": 384247,
           "place": 116
@@ -50389,6 +51958,10 @@
           "place": 7
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 9
+        },
+        {
           "ctftime_team_id": 285,
           "place": 14
         },
@@ -50542,6 +52115,10 @@
       "restrictions": "Open",
       "rankings": [
         {
+          "ctftime_team_id": 73723,
+          "place": 7
+        },
+        {
           "ctftime_team_id": 285,
           "place": 8
         },
@@ -50568,6 +52145,10 @@
       "format": "Jeopardy",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 2
+        },
         {
           "ctftime_team_id": 2524,
           "place": 23
@@ -50696,6 +52277,10 @@
         {
           "ctftime_team_id": 2511,
           "place": 49
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 71
         },
         {
           "ctftime_team_id": 11464,
@@ -50889,6 +52474,10 @@
           "place": 69
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 81
+        },
+        {
           "ctftime_team_id": 3602,
           "place": 121
         },
@@ -50969,6 +52558,21 @@
       ]
     },
     {
+      "name": "Srdnlen CTF 2025 Finals (Sardinia Cyber Camp)",
+      "ctftime_id": 2840,
+      "ctftime_weight": 25.0,
+      "start_time": "2025-09-25T10:00:00+00:00",
+      "end_time": "2025-09-25T22:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 9
+        }
+      ]
+    },
+    {
       "name": "Iran Tech Olympics CTF 2025",
       "ctftime_id": 2775,
       "ctftime_weight": 25.0,
@@ -51008,6 +52612,10 @@
       "format": "Attack-Defense",
       "restrictions": "Open",
       "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 29
+        },
         {
           "ctftime_team_id": 285,
           "place": 68
@@ -51205,6 +52813,10 @@
           "place": 92
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 94
+        },
+        {
           "ctftime_team_id": 284,
           "place": 211
         },
@@ -51294,6 +52906,10 @@
           "place": 23
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 30
+        },
+        {
           "ctftime_team_id": 27763,
           "place": 32
         },
@@ -51370,6 +52986,10 @@
         {
           "ctftime_team_id": 11464,
           "place": 25
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 34
         },
         {
           "ctftime_team_id": 397,
@@ -51628,6 +53248,10 @@
         {
           "ctftime_team_id": 114056,
           "place": 330
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 566
         }
       ]
     },
@@ -51743,6 +53367,10 @@
           "place": 119
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 132
+        },
+        {
           "ctftime_team_id": 110145,
           "place": 138
         },
@@ -51785,6 +53413,21 @@
       ]
     },
     {
+      "name": "saarCTF 2025",
+      "ctftime_id": 2859,
+      "ctftime_weight": 97.22,
+      "start_time": "2025-11-08T13:00:00+00:00",
+      "end_time": "2025-11-08T22:00:00+00:00",
+      "format": "Attack-Defense",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 10
+        }
+      ]
+    },
+    {
       "name": "AmateursCTF 2025",
       "ctftime_id": 2844,
       "ctftime_weight": 35.56,
@@ -51804,6 +53447,10 @@
         {
           "ctftime_team_id": 53812,
           "place": 12
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 115
         },
         {
           "ctftime_team_id": 24526,
@@ -51945,6 +53592,10 @@
           "place": 105
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 111
+        },
+        {
           "ctftime_team_id": 333,
           "place": 158
         },
@@ -52042,6 +53693,21 @@
       ]
     },
     {
+      "name": "CyberSci Regional Qualifiers 2025-26",
+      "ctftime_id": 2909,
+      "ctftime_weight": 25.0,
+      "start_time": "2025-11-22T15:00:00+00:00",
+      "end_time": "2025-11-22T22:00:00+00:00",
+      "format": "Jeopardy",
+      "restrictions": "Open",
+      "rankings": [
+        {
+          "ctftime_team_id": 73723,
+          "place": 5
+        }
+      ]
+    },
+    {
       "name": "GlacierCTF 2025",
       "ctftime_id": 2714,
       "ctftime_weight": 52.57,
@@ -52100,6 +53766,10 @@
         {
           "ctftime_team_id": 53812,
           "place": 51
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 54
         },
         {
           "ctftime_team_id": 439,
@@ -52390,6 +54060,10 @@
           "place": 75
         },
         {
+          "ctftime_team_id": 193591,
+          "place": 124
+        },
+        {
           "ctftime_team_id": 366788,
           "place": 159
         },
@@ -52442,6 +54116,10 @@
         {
           "ctftime_team_id": 285,
           "place": 79
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 87
         },
         {
           "ctftime_team_id": 284,
@@ -52529,6 +54207,10 @@
           "place": 111
         },
         {
+          "ctftime_team_id": 73723,
+          "place": 112
+        },
+        {
           "ctftime_team_id": 11464,
           "place": 160
         }
@@ -52585,6 +54267,10 @@
         {
           "ctftime_team_id": 53812,
           "place": 46
+        },
+        {
+          "ctftime_team_id": 73723,
+          "place": 73
         },
         {
           "ctftime_team_id": 186494,
