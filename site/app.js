@@ -7,7 +7,7 @@ const state = {
   countries: [],
   filters: {
     search: "",
-    topN: 5,
+    topN: 3,
     yearStart: null,
     yearEnd: null,
     country: "all",
@@ -416,14 +416,14 @@ const wireEvents = () => {
 
   elements.reset.addEventListener("click", () => {
     state.filters.search = "";
-    state.filters.topN = 5;
+    state.filters.topN = 3;
     state.filters.country = "all";
     state.filters.yearStart = state.years.includes(2023) ? 2023 : state.years[0];
     state.filters.yearEnd = state.years[state.years.length - 1];
     state.filters.weightMin = state.weightRange.max >= 75 ? 75 : state.weightRange.min;
 
     elements.search.value = "";
-    elements.topn.value = "5";
+    elements.topn.value = "3";
     elements.country.value = "all";
     elements.yearStart.value = state.filters.yearStart;
     elements.yearEnd.value = state.filters.yearEnd;
