@@ -341,7 +341,7 @@ const renderTable = (rows, institutionMeta, details, teamToInstitutions) => {
 
       return `
         <tr data-detail="${detailId}">
-          <td>${index + 1}</td>
+          <td><span class="expand-icon">▶</span> ${index + 1}</td>
           <td><span class="flag">${flag}</span>${site}</td>
           <td>${formatNumber(row.points)}</td>
         </tr>

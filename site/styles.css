@@ -227,8 +227,24 @@ tbody tr[data-detail] {
   cursor: pointer;
 }
 
+tbody tr[data-detail]:hover {
+  background: #f0f0f0;
+}
+
 tbody tr[data-detail].open {
   background: #f1f1f1;
+}
+
+.expand-icon {
+  display: inline-block;
+  font-size: 0.7em;
+  color: var(--muted);
+  transition: transform 0.15s ease;
+  margin-right: 4px;
+}
+
+tbody tr[data-detail].open .expand-icon {
+  transform: rotate(90deg);
 }
 
 .detail-row {
