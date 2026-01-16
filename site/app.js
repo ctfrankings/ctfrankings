@@ -37,7 +37,7 @@ const elements = {
   reset: document.getElementById("reset"),
   tableBody: document.getElementById("table-body"),
   jumpTable: document.getElementById("jump-table"),
-  jumpMethod: document.getElementById("jump-method"),
+  jumpFAQ: document.getElementById("jump-faq"),
 };
 
 const formatNumber = (value) => value.toLocaleString("en-US");
@@ -587,8 +587,8 @@ const wireEvents = () => {
     document.getElementById("leaderboard").scrollIntoView({ behavior: "smooth" });
   });
 
-  elements.jumpMethod.addEventListener("click", () => {
-    document.getElementById("methodology").scrollIntoView({ behavior: "smooth" });
+  elements.jumpFAQ.addEventListener("click", () => {
+    document.getElementById("faq").scrollIntoView({ behavior: "smooth" });
   });
 
   elements.tableBody.addEventListener("click", (event) => {

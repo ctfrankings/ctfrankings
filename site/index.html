@@ -16,16 +16,14 @@
         <div class="site-title">
           <h1>CTFRankings: Capture The Flag Rankings</h1>
           <p>
-            A csrankings-style leaderboard that awards 1 point to academic teams who place in the
-            top N academic finishers of each ranked CTF. Institutions collect points through their
-            teams.
+          A <a href="https://csrankings.org">CSRankings</a>-style metrics-based ranking of top computer science institutions based on CTF performance.
           </p>
         </div>
         <div class="site-meta">
           <span id="data-range">Loading dataset…</span>
           <nav class="site-nav">
             <button class="link" id="jump-table">Rankings</button>
-            <button class="link" id="jump-method">Methodology</button>
+            <button class="link" id="jump-faq">FAQ</button>
           </nav>
         </div>
       </header>
@@ -104,13 +102,42 @@
         </div>
       </section>
 
-      <section class="panel" id="methodology">
-        <h2>Methodology</h2>
+      <section class="panel" id="faq">
+        <h2>Why CTFRankings?</h2>
         <p>
-          We only consider teams tied to academic institutions. For each ranked CTF, we sort
-          academic teams by their overall placing and give 1 point to each of the top N academic
-          teams. If a team is associated with multiple institutions, that point is split evenly
-          across those institutions.
+          As observed by <a href="https://csrankings.org/faq.html">CSRankings</a>, rankings are intensely popular and influential.
+          Students use rankings to decide which universities to attend.
+          Recruiters use rankings to decide where to seek talent.
+          However, resources are lacking for students and recruiters that value the types of skills that CTFs develop.
+
+          CTFRankings rankings academic institutions by their teams' abilities to place highly (relative to teams at other academic institutions) in top CTF events around the world.
+          The top universities in our ranking value CTF, and are good destinations for students and recruiters alike.
+        </p>
+        <h2>What is the Methodology?</h2>
+        <p>
+          Our methodology is inspired by <a href="https://csrankings.org">CSRankings</a>, which is a metric grounded in objective measurement of the scientific output of Computer Science depratments at various academic institutions.
+        </p>
+        <p>
+          We weigh academic institutions by the number of times that their CTF teams placed in a top-N position <i>among academic teams</i> in CTFs.
+          We use CTFs rated above a configurable CTFTime weight threshold.
+          If multiple teams associated with an institution place in the top-N, the institution gets the sum of those points.
+          If a team is associated with multiple institutions, that point is split evenly across those institutions.
+          We only consider teams tied to academic institutions.
+        </p>
+        <h2>Why split points evenly for multi-affiliation teams?</h2>
+        <p>
+          There is no perfect way to split points across multi-institution teams.
+          Splitting evenly is the least complex and requires the least maintenance (e.g., no recalculation as the specific fraction of institution A and institution B changes within a team).
+        </p>
+        <h2>What about some other methodology?</h2>
+        <p>
+          It is possible that there is a more optimal methodology for ranking teams.
+          We welcome contributions on <a href="https://github.com/ctfrankings/ctfrankings">github</a>!
+          Open an issue and let's talk.
+        </p>
+        <p>
+          Note that in our experience, as long as the ranking is objective and makes some amount of sense, it is probably good enough.
+          This holds, for example <a href="https://github.com/o-o-overflow/scoring-playground">in CTF scoring itself</a>.
         </p>
       </section>
 
